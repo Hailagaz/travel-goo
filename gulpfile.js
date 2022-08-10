@@ -1,4 +1,4 @@
-const { src, dest, series } = require('gulp');
+const { src, dest, series, watch } = require('gulp');
 const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 const sass = require('gulp-sass')(require('sass'));
@@ -21,8 +21,9 @@ function css() {
 }
 
 function watch() {
-	gulp.watch('output/index.css', css);
+	gulp.watch(['scss/*.scss'], css);
 }
+
 
 exports.default = series(js, css, watch);
 
