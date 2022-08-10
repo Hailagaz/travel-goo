@@ -3,6 +3,8 @@ const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 const sass = require('gulp-sass')(require('sass'));
 const concat = require('gulp-concat');
+//const watch = require('gulp');
+
 
 function js() {
 	return src('js/*.js')
@@ -18,6 +20,9 @@ function css() {
 		.pipe(dest('output/'));
 }
 
+function watch() {
+	gulp.watch('output/index.css', css);
+}
 
-exports.default = series(js, css);
+exports.default = series(js, css, watch);
 

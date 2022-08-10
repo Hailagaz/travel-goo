@@ -1,0 +1,54 @@
+.props {
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: auto;
+  background: url(../images/background_01.png) center 0/100% 1350px no-repeat;
+}
+
+main {
+  width: 1728px;
+  max-width: 100%;
+  margin: 0px auto 0px auto;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-size: inherit;
+}
+
+p {
+  font-size: 14px;
+}
+
+a:hover {
+  border-bottom: solid 2px #ffffff;
+}
+
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
