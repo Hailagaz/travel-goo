@@ -23,7 +23,7 @@
 <body>
 	<header class="header">
 		<div class="header__logotype">
-			<img src="/images/logotype_01.png" alt="Logotype">
+			<img src="/images/logotype_01.png" alt="Header logotype">
 		</div>
 		<nav class="header__nav">
 			<ul class="header__list">
@@ -51,7 +51,7 @@
 				<h1>Your Imagination Is Your Only Limit</h1>
 			</div>
 			<div class="discover__slogan">
-				<p>We always try to make our customer Happy. We provide all kind of facilities. 
+				<p>We always try to make our customer Happy. We provide all kind of facilities.
 					Your Satisfaction is our main priority</p>
 			</div>
 			<div class="discover__button button">
@@ -85,7 +85,7 @@
 		</div>
 		<div class="statistics">
 			<div class="statistics__header">
-				<h2>We always try to give you 
+				<h2>We always try to give you
 					the best service</h2>
 			</div>
 			<div class="statistics__slogan">
@@ -136,7 +136,8 @@
 								<p>20+ Spots 2D & 3N</p>
 							</div>
 							<div class="destinations__more">
-								<a href="#"><img src="/images/destinations_more.png" alt="Learn more about destination point"></a>
+								<a href="#"><img src="/images/destinations_more.png"
+										alt="Learn more about destination point"></a>
 							</div>
 						</div>
 					</div>
@@ -152,7 +153,8 @@
 								<p>25+ Spots 2D & 3N</p>
 							</div>
 							<div class="destinations__more">
-								<a href="#"><img src="/images/destinations_more.png" alt="Learn more about destination point"></a>
+								<a href="#"><img src="/images/destinations_more.png"
+										alt="Learn more about destination point"></a>
 							</div>
 						</div>
 					</div>
@@ -168,7 +170,8 @@
 								<p>20+ Spots 2D & 3N</p>
 							</div>
 							<div class="destinations__more">
-								<a href="#"><img src="/images/destinations_more.png" alt="Learn more about destination point"></a>
+								<a href="#"><img src="/images/destinations_more.png"
+										alt="Learn more about destination point"></a>
 							</div>
 						</div>
 					</div>
@@ -244,7 +247,7 @@
 							</div>
 						</div>
 						<div class="packages__advertisment">
-							<p>Enjoy the Shrimes and blossoms here in 
+							<p>Enjoy the Shrimes and blossoms here in
 								this beautiful country</p>
 						</div>
 						<div class="packages__details">
@@ -272,7 +275,7 @@
 							</div>
 						</div>
 						<div class="packages__advertisment">
-							<p>Explore the majestic mountains and 
+							<p>Explore the majestic mountains and
 								landscapes day and nights</p>
 						</div>
 						<div class="packages__details">
@@ -391,13 +394,96 @@
 			</div>
 		</div>
 		<div class="subscribe">
-			<form action="">
+			<div class="subscribe__header">
+				<p>Subscribe to get information, latest news and other
+					interesting offers about Cobham</p>
+			</div>
+			<form action="form_to_email.php" method="post" name="email_form">
+				<div class="subscribe__email">
+					<!-- <label for="email">
+						<img src="/images/subscribe_email.png" alt="Sign of email">
+					</label> -->
+					<input type="email" name="email" id="email" placeholder="Your email">
+					<div class="subscribe__button button">
+						<label for="button-submit" class="subscribe__button-label"
+							style="cursor: pointer">Submit</label>
+						<input type="submit" value="Submit" style="cursor: pointer" class="subscribe__button-link"
+							id="button-submit">
+					</div>
 
+				</div>
 			</form>
 		</div>
 	</main>
 	<footer class="footer">
-
+		<div class="footer__content">
+			<div class="footer__logotype">
+				<div class="footer__logo">
+					<img src="/images/logotype_02.png" alt="Footer logotype">
+				</div>
+				<div class="footer__slogan">
+					<p>Book your trip in minute, get full
+						Control for much longer.
+					</p>
+				</div>
+			</div>
+			<div class="footer__company">
+				<ul class="footer__company-list">
+					<li><a>About</a></li>
+					<li><a>Careers</a></li>
+					<li><a>Mobile</a></li>
+				</ul>
+			</div>
+			<div class="footer__contact">
+				<ul class="footer__company-list">
+					<li><a>Help/FAQ</a></li>
+					<li><a>Press</a></li>
+					<li><a>Affilates</a></li>
+				</ul>
+			</div>
+			<div class="footer__more">
+				<ul class="footer__company-list">
+					<li><a>Airlinefees</a></li>
+					<li><a>Airline</a></li>
+					<li><a>Low fare tips</a></li>
+				</ul>
+			</div>
+			<div class="footer__web">
+				<div class="footer__social">
+					<div class="footer__facebook">
+						<a href="https://www.facebook.com/" target="_blank">
+							<img src="/images/footer_facebook.png" alt="Facebook social web">
+						</a>
+					</div>
+					<div class="footer__instagram">
+						<a href="https://www.instagram.com/" target="_blank">
+							<img src="/images/footer_instagram.png" alt="Instagram social web">
+						</a>
+					</div>
+					<div class="footer__twitter">
+						<a href="https://twitter.com/" target="_blank">
+							<img src="/images/footer_twitter.png" alt="Twitter social web">
+						</a>
+					</div>
+				</div>
+				<div class="footer__app">
+					<p>Discover our app</p>
+					<div class="footer__android">
+						<a href="https://play.google.com/store/apps" target="_blank">
+							<img src="/images/footer_android.png" alt="Download our app on android">
+						</a>
+					</div>
+					<div class="footer__ios">
+						<a href="https://www.apple.com/ua/app-store/" target="_blank">
+							<img src="/images/footer_ios.png" alt="Download our app on ios">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__rights">
+			<p>All rights reserved@travelgoo.co</p>
+		</div>
 	</footer>
 </body>
 
