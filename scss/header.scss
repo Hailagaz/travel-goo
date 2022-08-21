@@ -1,4 +1,7 @@
 .header {
+	max-width: 100%;
+	width: 1448px;
+
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -7,8 +10,6 @@
 
 	margin: 32px auto 0;
 	padding: 0 20px;
-	max-width: 100%;
-	width: 1448px;
 
 	&__logotype {
 	}

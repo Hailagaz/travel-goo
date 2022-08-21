@@ -1,0 +1,29 @@
+.discover {
+	margin-top: 375px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: #ffffff;
+	text-align: center;
+
+	// .discover__header
+	&__header {
+		width: 779px;
+		max-width: 100%;
+	}
+	// .discover__slogan
+	&__slogan {
+		margin-top: 57px;
+		width: 568px;
+		max-width: 100%;
+	}
+	// .discover__button
+	&__button {
+		margin-top: 39px;
+	}
+}
+
+
