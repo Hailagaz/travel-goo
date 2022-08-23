@@ -40,21 +40,19 @@
 }
 .destinations__content {
   margin-top: 72px;
-  height: 772px;
-  max-height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.destinations__map {
+.destinations__map img {
   opacity: 0.6;
-  position: absolute;
-  left: -617px;
+  max-width: 617px;
+  width: 100%;
+  height: 100%;
 }
 .destinations__places {
-  margin-left: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,9 +62,27 @@
 .destinations__place {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  width: 659px;
+  max-width: 100%;
+}
+.destinations__description {
+  margin-left: 49px;
+  display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.destinations__spots {
+  margin-left: 49px;
+  width: 93px;
+}
+.destinations__more {
+  margin-left: 93px;
 }
 .discover {
   margin-top: 375px;
