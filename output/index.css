@@ -110,7 +110,7 @@ body {
   font-weight: 400;
   margin: auto;
   background: url(../images/background_01.png) center 0/100% 1350px no-repeat;
-  background-size: contain;
+  background-size: auto 1177px;
 }
 
 main {
@@ -160,4 +160,57 @@ a:hover {
 }
 .services {
   margin-top: 375px;
+  margin-bottom: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.services__content {
+  margin-top: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.services__service {
+  width: 416px;
+  max-width: 100%;
+  flex: 1 1 calc(33.3333333333% - 2rem);
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  padding: 40px 40px 20px;
+}
+.services__service-image {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services__service-head {
+  margin-top: 26px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+.services__service-descr {
+  margin-top: 19px;
+}
+
+.subscribe__button-link {
+  display: none;
+}
+
+#email {
+  display: flex;
+  height: 68px;
+  border: 1px solid #d30e0e;
+  background: #ffffff url(/images/subscribe_email.png) 31px 50% no-repeat;
+  border-radius: 18px;
+  color: #39425D;
+  padding: 0 66px;
 }

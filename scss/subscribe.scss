@@ -1,0 +1,28 @@
+.subscribe {
+	// .subscribe__header
+	&__header {
+	}
+	// .subscribe__email
+	&__email {
+	}
+	// .subscribe__button
+	&__button {
+	}
+	// .subscribe__button-label
+	&__button-label {
+	}
+	// .subscribe__button-link
+	&__button-link {
+		display: none;
+	}
+}
+
+#email {
+	display: flex;
+	height: 68px;
+	border: 1px solid #d30e0e;
+	background: #ffffff url(/images/subscribe_email.png) 31px 50% no-repeat;
+	border-radius: 18px;
+	color: #39425D;
+	padding: 0 66px;
+}
