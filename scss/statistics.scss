@@ -23,7 +23,6 @@
 		text-align: center;
 	}
 
-
 	// .statistics__achievements
 	&__achievements {
 		margin-top: 118px;
@@ -52,21 +51,30 @@
 		background-color: rgba(1, 129, 123, 0.05);
 		transition: 0.5s;
 		box-shadow: 0 0 15px 5px rgba(0, 88, 83, 0.05);
-		color: #005F15;
-
+		color: #005f15;
 	}
 	// .statistics__block-image
 	&__block-image {
 	}
 	// .statistics__block-count
 	&__block-count {
+		margin-top: 25px;
 	}
+	&__block-count p {
+		font-size: 36px;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 49px;
+	}
+
 	// .statistics__block-descr
 	&__block-descr {
+		margin-top: 15px;
 	}
-
-
-
+	&__block-descr p {
+		font-size: 20px;
+		line-height: 27px;
+	}
 
 	// .statistics__experience
 	&__experience {

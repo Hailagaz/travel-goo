@@ -52,11 +52,14 @@
 	// .services__service-head
 	&__service-head {
 		margin-top: 26px;
+	}
 
+	&__service-head p {
 		font-weight: 700;
 		font-size: 24px;
 		line-height: 33px;
 	}
+
 	// .services__service-descr
 	&__service-descr {
 		margin-top: 19px;
