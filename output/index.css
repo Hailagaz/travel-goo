@@ -30,6 +30,44 @@
 .button a:hover {
   border-bottom: none;
 }
+.destinations {
+  margin-top: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.destinations__content {
+  margin-top: 72px;
+  height: 772px;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.destinations__map {
+  opacity: 0.6;
+  position: absolute;
+  left: -617px;
+}
+.destinations__places {
+  margin-left: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.destinations__place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .discover {
   margin-top: 375px;
   display: flex;
