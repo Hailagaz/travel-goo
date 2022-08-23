@@ -1,7 +1,8 @@
 .services {
 	margin-top: 375px;
 	margin-bottom: 88px;
-	
+	padding: 0 20px;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -25,16 +26,21 @@
 	&__service {
 		width: 416px;
 		max-width: 100%;
-		//margin-left: 115px;
-		flex: 1 1 calc((100% / 3) - 2rem);
+		display: flex;
+		flex-direction: column;
+
+		flex: 1 1 calc((100% / 3) - 3rem);
 		background-color: #f9f9f9;
 		border-radius: 15px;
 		padding: 40px 40px 20px;
+		min-width: 200px;
 	}
-	// &__service:first-child {
-	// 	margin-left: 0px;
-	// }
+	&__service:hover {
+		background-color: #ffffff;
 
+		transition: 0.5s;
+		box-shadow: 0 0 15px 5px #f9f9f9;
+	}
 	// .services__service-image
 	&__service-image {
 		width: 46px;

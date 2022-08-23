@@ -1,18 +1,59 @@
 .statistics {
+	background: url(/images/statistics_back.png) rgba(0, 88, 83, 0.05) center 0/100% no-repeat;
+	background-size: auto 733px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+
 	// .statistics__header
 	&__header {
+		padding-top: 81px;
+		width: 518px;
+		max-width: 100%;
+		text-align: center;
 	}
 	// .statistics__slogan
 	&__slogan {
+		margin-top: 19px;
+		width: 495px;
+		max-width: 100%;
+		text-align: center;
 	}
+
+
 	// .statistics__achievements
 	&__achievements {
-	}
-	// .statistics__experience
-	&__experience {
+		margin-top: 118px;
+		margin-bottom: 113px;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 5rem;
 	}
 	// .statistics__block
 	&__block {
+		width: 250px;
+		height: 250px;
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #ffffff;
+		border-radius: 15px;
+	}
+	&__block:hover {
+		background-color: rgba(1, 129, 123, 0.05);
+		transition: 0.5s;
+		box-shadow: 0 0 15px 5px rgba(0, 88, 83, 0.05);
+		color: #005F15;
+
 	}
 	// .statistics__block-image
 	&__block-image {
@@ -22,6 +63,13 @@
 	}
 	// .statistics__block-descr
 	&__block-descr {
+	}
+
+
+
+
+	// .statistics__experience
+	&__experience {
 	}
 	// .statistics__travellers
 	&__travellers {
