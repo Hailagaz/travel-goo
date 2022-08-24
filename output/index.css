@@ -322,7 +322,7 @@ a:hover {
 .statistics__block-count {
   margin-top: 25px;
 }
-.statistics__block-count p {
+.statistics__block-count span {
   font-size: 36px;
   font-weight: 700;
   font-size: 36px;
