@@ -17,13 +17,13 @@ window.addEventListener('DOMContentLoaded', () => {
 						}
 					);
 					count.start(() => { // запускаем настроенную анимацию и по окончании анимации...
-						entry.target.parentElement.classList.add('numbers__item_done') // ...добавляем активный класс родительскому элементу
+						entry.target.parentElement.classList.add('statistics__block-count_done') // ...добавляем активный класс родительскому элементу
 					})
 					observer.unobserve(entry.target); // отключаем наблюдение за элементом
 				}
 			})
 		});
-		document.querySelectorAll('.numbers__item span').forEach(num => { // ищем элементы за которыми будем наблюдать, и для каждого...
+		document.querySelectorAll('.statistics__block-count span').forEach(num => { // ищем элементы за которыми будем наблюдать, и для каждого...
 			numbersObserver.observe(num) // ...запускаем наблюдение
 		})
 	}
