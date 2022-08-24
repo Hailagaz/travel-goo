@@ -1,0 +1,1 @@
+const time=1e4,step=1;function outNum(e,t){let u=document.querySelector("#num");n=0;var r=Math.round(time/(e/step));let m=setInterval(()=>{(n+=step)==e&&clearInterval(m),u.innerHTML=n},r)}outNum(15,"#num");
