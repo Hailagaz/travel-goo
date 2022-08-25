@@ -45,11 +45,10 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-}
-.destinations__map {
-  opacity: 0.6;
-  width: 617px;
-  max-width: 100%;
+  background-image: url(/images/destinations_map.png);
+  background-repeat: no-repeat;
+  background-position-x: -617px;
+  background-position-y: center;
 }
 .destinations__places {
   display: flex;
@@ -175,7 +174,7 @@ body {
 
 main {
   max-width: 100%;
-  width: 1448px;
+  width: 1735px;
   margin: 0px auto 0px auto;
   padding: 0;
 }
