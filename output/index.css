@@ -74,7 +74,6 @@
 .destinations__place:hover {
   background-color: rgba(42, 131, 204, 0.05);
   transition: 0.5s;
-  opacity: 20;
 }
 .destinations__description {
   margin-left: 49px;
@@ -224,6 +223,92 @@ a:visited,
 a:hover {
   text-decoration: none;
   color: inherit;
+}
+.packages {
+  margin-top: 53px;
+  margin-bottom: 105px;
+  background: #ecf1f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.packages__header {
+  padding-top: 59px;
+}
+.packages__packs {
+  margin-top: 52px;
+}
+.packages__pack {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  gap: 70px;
+}
+.packages__direction {
+  overflow: hidden;
+  width: 180px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  background-color: #666666;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.packages__direction:hover {
+  background-color: #00A651;
+  transition: 0.25s;
+  box-shadow: 0 0 15px 5px #ffffff;
+}
+.packages__direction a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+}
+.packages__direction a:hover {
+  border-bottom: none;
+}
+.packages__direction p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+.packages__deals {
+  margin-top: 107px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.packages__terms p {
+  font-size: 20px;
+  line-height: 27px;
+}
+.packages__advertisment p {
+  font-weight: 600;
+  line-height: 22px;
+}
+.packages__destination p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+}
+.packages__more a {
+  font-weight: 600;
+  line-height: 22px;
+}
+.packages__button {
+  margin-top: 98px;
 }
 .services {
   margin-top: 375px;

@@ -1,0 +1,137 @@
+.packages {
+	margin-top: 53px;
+	margin-bottom: 105px;
+	background: #ecf1f0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	// .packages__header
+	&__header {
+		padding-top: 59px;
+	}
+	// .packages__packs
+	&__packs {
+		margin-top: 52px;
+	}
+	// .packages__pack
+	&__pack {
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		color: #ffffff;
+		gap: 70px;
+	}
+	// .packages__direction
+
+	//------------------------------------
+	&__direction {
+		overflow: hidden;
+		width: 180px;
+		height: 60px;
+
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 27px;
+
+		background-color: #666666;
+		border-radius: 10px;
+		cursor: pointer;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	&__direction:hover {
+		background-color: #00A651;
+		transition: 0.25s;
+		box-shadow: 0 0 15px 5px #ffffff;
+	}
+	
+	&__direction a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: inherit;
+		height: inherit;
+	}
+	
+	&__direction a:hover {
+		border-bottom: none;
+	}
+	//--------------------------------------------------
+
+	&__direction p {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 27px;
+	}
+	// .packages__deals
+	&__deals {
+		margin-top: 107px;
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	// .packages__deal
+	&__deal {
+	}
+	// .packages__image
+	&__image {
+	}
+	// .packages__info
+	&__info {
+	}
+	// .packages__terms
+	&__terms {
+	}
+	&__terms p {
+		font-size: 20px;
+		line-height: 27px;
+	}
+
+	// .packages__term
+	&__term {
+	}
+	// .packages__price
+	&__price {
+	}
+	// .packages__advertisment
+	&__advertisment {
+	}
+	&__advertisment p {
+		font-weight: 600;
+		line-height: 22px;
+	}
+
+	// .packages__details
+	&__details {
+	}
+	// .packages__destination
+	&__destination {
+	}
+	&__destination p {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 27px;
+	}
+	// .packages__more
+	&__more {
+	}
+	&__more a {
+		font-weight: 600;
+		line-height: 22px;
+	}
+	// .packages__button
+	&__button {
+		margin-top: 98px;
+	}
+}
