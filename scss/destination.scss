@@ -53,8 +53,11 @@
 
 		box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
 		border-radius: 15px;
-		width: 659px;
 		max-width: 100%;
+	}
+	&__place:hover {
+		background-color: rgba(42, 131, 204, 0.05);
+		transition: 0.5s;
 	}
 	// .destinations__image
 	&__image {
@@ -62,27 +65,30 @@
 	// .destinations__description
 	&__description {
 		margin-left: 49px;
+		margin-right: 35px;
+		width: 300px;
+
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
 		flex-direction: row;
 		flex-wrap: wrap;
-
+	}
+	&__description p {
 		font-weight: 600;
 		font-size: 20px;
 		line-height: 27px;
 	}
 	// .destinations__point
 	&__point {
-		width: 120px;
+		width: 115px;
 	}
 	// .destinations__spots
 	&__spots {
-		margin-left: 30px;
+		//margin-left: 30px;
 		width: 93px;
 	}
 	// .destinations__more
 	&__more {
-		margin-left: 93px;
 	}
 }

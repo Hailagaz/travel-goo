@@ -69,29 +69,33 @@
   flex-wrap: wrap;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
-  width: 659px;
   max-width: 100%;
+}
+.destinations__place:hover {
+  background-color: rgba(42, 131, 204, 0.05);
+  transition: 0.5s;
+  opacity: 20;
 }
 .destinations__description {
   margin-left: 49px;
+  margin-right: 35px;
+  width: 300px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.destinations__description p {
   font-weight: 600;
   font-size: 20px;
   line-height: 27px;
 }
 .destinations__point {
-  width: 120px;
+  width: 115px;
 }
 .destinations__spots {
-  margin-left: 30px;
   width: 93px;
-}
-.destinations__more {
-  margin-left: 93px;
 }
 .discover {
   margin-top: 375px;
