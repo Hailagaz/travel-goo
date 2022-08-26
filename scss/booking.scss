@@ -1,12 +1,30 @@
 .booking {
+	padding-top: 62px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	padding: 0 20px;
+
 	// .booking__header
 	&__header {
+		text-align: center;
 	}
 	// .booking__slogan
 	&__slogan {
+		margin-top: 5px;
+		text-align: center;
 	}
 	// .booking__explain
 	&__explain {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 	// .booking__steps
 	&__steps {
@@ -28,5 +46,10 @@
 	}
 	// .booking__example
 	&__example {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: wrap;
 	}
 }
