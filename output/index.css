@@ -7,6 +7,9 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+.destinations__header {
+  text-align: center;
+}
 .destinations__content {
   margin-top: 72px;
   max-width: inherit;
@@ -229,7 +232,6 @@ main {
 }
 .packages {
   margin-top: 53px;
-  margin-bottom: 105px;
   padding: 0 20px;
   background: #ecf1f0;
   display: flex;
@@ -240,6 +242,7 @@ main {
 }
 .packages__header {
   padding-top: 59px;
+  text-align: center;
 }
 .packages__packs {
   margin-top: 52px;
@@ -303,7 +306,11 @@ main {
   gap: 74px;
 }
 .packages__deal {
-  width: max-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 434px;
+  max-width: 100%;
   background-color: #ffffff;
   border-radius: 15px 15px;
 }
@@ -365,6 +372,14 @@ main {
 }
 .packages__button {
   margin-top: 98px;
+  margin-bottom: 105px;
+  width: 300px;
+}
+.packages__button a {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
 }
 .services {
   margin-top: 375px;
