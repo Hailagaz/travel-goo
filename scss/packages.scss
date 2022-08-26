@@ -1,6 +1,8 @@
 .packages {
 	margin-top: 53px;
 	margin-bottom: 105px;
+	padding: 0 20px;
+	
 	background: #ecf1f0;
 
 	display: flex;
@@ -16,6 +18,11 @@
 	// .packages__packs
 	&__packs {
 		margin-top: 52px;
+		//width: 100%;
+		//max-width: 1430px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
 	}
 	// .packages__pack
 	&__pack {
@@ -23,14 +30,14 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
 		margin: 0;
 		padding: 0;
 		color: #ffffff;
 		gap: 70px;
 	}
 	// .packages__direction
-
-	//------------------------------------
 	&__direction {
 		overflow: hidden;
 		width: 180px;
@@ -48,13 +55,11 @@
 		justify-content: center;
 		align-items: center;
 	}
-
 	&__direction:hover {
 		background-color: #00a651;
 		transition: 0.25s;
 		box-shadow: 0 0 15px 5px #ffffff;
 	}
-
 	&__direction a {
 		display: flex;
 		align-items: center;
@@ -62,12 +67,9 @@
 		width: inherit;
 		height: inherit;
 	}
-
 	&__direction a:hover {
 		border-bottom: none;
 	}
-	//--------------------------------------------------
-
 	&__direction p {
 		font-weight: 700;
 		font-size: 20px;
@@ -81,7 +83,7 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 		gap: 74px;
 	}
 	// .packages__deal
@@ -143,7 +145,6 @@
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
-		
 	}
 	// .packages__destination
 	&__destination {
