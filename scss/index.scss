@@ -1,4 +1,7 @@
 @import '_variables.scss';
+@import '_buttons.scss';
+@import '_links.scss';
+@import '_text.scss';
 
 * {
 	margin: 0;
@@ -25,55 +28,4 @@ main {
 	width: $width_content;
 	margin: 0px auto 0px auto;
 	padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	margin: 0;
-	font-size: inherit;
-}
-
-p {
-	font-size: 16px;
-	line-height: 22px;
-}
-
-h1 {
-	font-weight: 800;
-	font-size: 75px;
-	line-height: 102px;
-}
-
-h2 {
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 54px;
-}
-
-h3 {
-}
-
-h4 {
-}
-
-h5 {
-}
-
-h6 {
-}
-
-a:hover {
-	border-bottom: solid 2px #ffffff;
-}
-
-a:link,
-a:visited,
-a:hover {
-	text-decoration: none;
-	color: inherit;
 }
