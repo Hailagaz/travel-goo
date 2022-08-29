@@ -1,5 +1,5 @@
 .booking {
-  padding-top: 62px;
+  margin-top: 62px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,18 +15,43 @@
   text-align: center;
 }
 .booking__explain {
+  margin-top: 62px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.booking__example {
+.booking__steps {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 66px;
+}
+.booking__step {
+  display: flex;
+  flex-direction: row;
+}
+.booking__process {
+  margin-left: 30px;
+  width: 330px;
+  max-width: 100%;
+}
+.booking__line p {
+  font-weight: 700;
+  line-height: 124.5%;
+}
+.booking__text {
+  margin-top: 6px;
+}
+.booking__text p {
+  line-height: 124.5%;
+}
+.booking__example img {
+  width: 485px;
+  height: 393px;
 }
 .destinations {
   margin-top: 72px;

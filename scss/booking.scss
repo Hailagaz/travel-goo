@@ -1,5 +1,5 @@
 .booking {
-	padding-top: 62px;
+	margin-top: 62px;
 
 	display: flex;
 	align-items: center;
@@ -20,6 +20,8 @@
 	}
 	// .booking__explain
 	&__explain {
+		margin-top: 62px;
+
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -28,28 +30,50 @@
 	}
 	// .booking__steps
 	&__steps {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 66px;
 	}
 	// .booking__step
 	&__step {
+		display: flex;
+		flex-direction: row;
 	}
 	// .booking__image
 	&__image {
 	}
 	// .booking__process
 	&__process {
+		margin-left: 30px;
+		width: 330px;
+		max-width: 100%;
+
+
 	}
 	// .booking__line
 	&__line {
 	}
+	&__line p {
+		font-weight: 700;
+		line-height: 124.5%;
+	}
 	// .booking__text
 	&__text {
+		margin-top: 6px;
+	}
+	&__text p {
+		line-height: 124.5%;
 	}
 	// .booking__example
 	&__example {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-		flex-wrap: wrap;
+	}
+	&__example img {
+		width: 485px;
+		height: 393px;
+		//max-height: 100%;
+		//max-width: 100%;
 	}
 }
