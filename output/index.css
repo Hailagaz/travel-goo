@@ -54,13 +54,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 .booking__example img {
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
+  max-width: 100%;
+  width: 485px;
+  height: auto;
 }
 .destinations {
   margin-top: 72px;
