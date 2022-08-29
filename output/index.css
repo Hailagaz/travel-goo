@@ -50,9 +50,17 @@
 .booking__text p {
   line-height: 124.5%;
 }
+.booking__example {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .booking__example img {
-  width: 485px;
-  height: 393px;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
 }
 .destinations {
   margin-top: 72px;
