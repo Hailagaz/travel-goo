@@ -29,11 +29,13 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 66px;
 }
 .booking__step {
+  margin-top: 67px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .booking__process {
   margin-left: 30px;
@@ -45,20 +47,21 @@
   line-height: 124.5%;
 }
 .booking__text {
-  margin-top: 6px;
+  margin-top: 7px;
 }
 .booking__text p {
   line-height: 124.5%;
 }
 .booking__example {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
-.booking__example img {
-  max-width: 100%;
-  width: 485px;
-  height: auto;
+.booking__example img:nth-child(2n) {
+  display: none;
+}
+.booking__example:hover img:nth-child(2n) {
+  display: block;
 }
 .destinations {
   margin-top: 72px;
