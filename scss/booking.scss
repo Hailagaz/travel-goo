@@ -21,10 +21,12 @@
 	// .booking__explain
 	&__explain {
 		margin-top: 62px;
+		width: 1147px;
+		max-width: 100%;
 
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-around;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
@@ -72,21 +74,26 @@
 	// .booking__example
 	&__example {
 		display: flex;
-		align-items: flex-end;
+		align-items: flex-start;
 		justify-content: center;
-		// flex-direction: column;
+		position: relative;
+		//margin-left: 200px;
 		// flex-wrap: wrap;
 	}
 	&__example img:nth-child(2n+1) {
-		//max-width: 100%;
-		//width: 485px;
-		//height: auto;
+		max-width: 100%;
+		width: 370px;
+		height: auto;
 	}
 	&__example img:nth-child(2n) {
+		position: absolute;
 		display: none;
 	}
 	&__example:hover img:nth-child(2n) {
 		display: block;
+		bottom: 51px;
+		left: 225px;
+
 	}
 
 }

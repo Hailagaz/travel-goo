@@ -1,0 +1,32 @@
+.comments {
+	padding-top: 62px;
+
+	background-color: #ECF1F0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	// .comments__header
+	&__header {
+	}
+	// .comments__list
+	&__list {
+		margin-top: 60px;
+	}
+	&__list ul {
+		list-style-type: none;
+	}
+	// .comments__comment
+	&__comment {
+	}
+	// .comments__photo
+	&__photo {
+	}
+	// .comments__text
+	&__text {
+	}
+	// .comments__name
+	&__name {
+	}
+}

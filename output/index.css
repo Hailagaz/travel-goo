@@ -17,9 +17,11 @@
 }
 .booking__explain {
   margin-top: 62px;
+  width: 1147px;
+  max-width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -54,14 +56,38 @@
 }
 .booking__example {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
+  position: relative;
+}
+.booking__example img:nth-child(2n+1) {
+  max-width: 100%;
+  width: 370px;
+  height: auto;
 }
 .booking__example img:nth-child(2n) {
+  position: absolute;
   display: none;
 }
 .booking__example:hover img:nth-child(2n) {
   display: block;
+  bottom: 51px;
+  left: 225px;
+}
+.comments {
+  padding-top: 62px;
+  background-color: #ECF1F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.comments__list {
+  margin-top: 60px;
+}
+.comments__list ul {
+  list-style-type: none;
 }
 .destinations {
   margin-top: 72px;
