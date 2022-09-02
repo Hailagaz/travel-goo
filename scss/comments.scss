@@ -12,10 +12,9 @@
 	&__header {
 	}
 	// .comments__list
-	&__list {
+	&__slider {
 		margin-top: 60px;
-	}
-	&__list ul {
+
 		list-style-type: none;
 		display: flex;
 		align-items: center;
@@ -25,7 +24,7 @@
 		gap: 100px;
 	}
 	// .comments__comment
-	&__comment {
+	&__item {
 		width: 1228px;
 		max-width: 100%;
 		height: 536px;
@@ -35,9 +34,10 @@
 
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-end;
 		flex-direction: column;
 		flex-wrap: wrap;
+		position: relative;
 	}
 	// .comments__field
 	&__field {
@@ -51,7 +51,8 @@
 		width: 738px;
 		max-width: 100%;
 
-		position: relative;
+		position: absolute;
+		bottom: -61px;
 	}
 	// .comments__photo
 	&__photo {

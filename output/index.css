@@ -84,10 +84,8 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
-.comments__list {
+.comments__slider {
   margin-top: 60px;
-}
-.comments__list ul {
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -96,7 +94,7 @@
   flex-wrap: wrap;
   gap: 100px;
 }
-.comments__comment {
+.comments__item {
   width: 1228px;
   max-width: 100%;
   height: 536px;
@@ -104,9 +102,10 @@
   background-image: url(/images/comments_background_1.png);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
   flex-wrap: wrap;
+  position: relative;
 }
 .comments__field {
   background-color: #ffffff;
@@ -117,7 +116,8 @@
   flex-wrap: wrap;
   width: 738px;
   max-width: 100%;
-  position: relative;
+  position: absolute;
+  bottom: -61px;
 }
 .comments__photo {
   position: absolute;
