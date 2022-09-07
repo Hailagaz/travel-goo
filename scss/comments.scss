@@ -8,6 +8,9 @@
 	justify-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
+
+	min-width: 0;
+
 	// .comments__header
 	&__header {
 	}
@@ -22,6 +25,8 @@
 		flex-direction: column;
 		flex-wrap: wrap;
 		gap: 100px;
+
+		min-width: 0;
 	}
 	// .comments__comment
 	&__item {

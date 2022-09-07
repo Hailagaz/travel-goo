@@ -1,1 +1,2 @@
 window.addEventListener("DOMContentLoaded",()=>{{const e=new IntersectionObserver((t,a)=>{t.forEach(t=>{if(t.isIntersecting){const e=new CountUp(t.target.id,0,t.target.dataset.num,0,t.target.dataset.duration||4,{separator:" ",prefix:t.target.dataset.prefix||"",suffix:t.target.dataset.suffix||""});e.start(()=>{t.target.parentElement.classList.add("statistics__block-count_done")}),a.unobserve(t.target)}})});return void document.querySelectorAll(".statistics__block-count span").forEach(t=>{e.observe(t)})}});
+$(document).ready(function(){$(".comments__slider").slick()});
