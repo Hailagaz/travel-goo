@@ -1,4 +1,0 @@
-function TestCase (elem) {
-	var variable = 10;
-	return elem * variable;
-}

@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Jeo Stanlee",
+		"testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor",
+		"photo": "images/testimonials_commentator_1.png",
+		"location": "images/testimonials_background_1.png"
+	},
+	{
+		"name": "Jeo Stanlee",
+		"testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor",
+		"photo": "images/testimonials_commentator_1.png",
+		"location": "images/testimonials_background_1.png"
+	},
+	{
+		"name": "Jeo Stanlee",
+		"testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor",
+		"photo": "images/testimonials_commentator_1.png",
+		"location": "images/testimonials_background_1.png"
+	}
+]

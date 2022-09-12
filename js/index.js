@@ -1,3 +1,7 @@
-$(document).ready(function(){
-	$('.comments__slider').slick();
+document.addEventListener("DOMContentLoaded", () => {
+	if(window.location.hash) {
+        document.querySelector(window.location.hash).scrollIntoView();
+    }
+
+	
 });
