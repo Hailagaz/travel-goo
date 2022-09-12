@@ -25,6 +25,6 @@ document.addEventListener("DOMContentLoaded",()=>{window.location.hash&&document
 
   				<div class="swiper-pagination"></div>
 
-  				<div class="swiper-button-prev"></div>
-  				<div class="swiper-button-next"></div>
-			`;new Swiper(".swiper",{loop:!0,slidesPerView:1.5,watchOverflow:!0,spaceBetween:30,slidesPerGroup:1,centeredSlides:!0,pagination:{el:".swiper-pagination",clickable:!0},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}})}).catch(e=>{document.querySelector(".swiper").innerHTML="<p>Sorry, we have some problems. We will fix them soon.</p>"})});
+  				// <div class="swiper-button-prev"></div>
+  				// <div class="swiper-button-next"></div>
+			`;new Swiper(".swiper",{loop:!0,slidesPerView:1.5,watchOverflow:!0,spaceBetween:30,slidesPerGroup:1,centeredSlides:!0,pagination:{el:".swiper-pagination",clickable:!0}})}).catch(e=>{document.querySelector(".swiper").innerHTML="<p>Sorry, we have some problems. We will fix them soon.</p>"})});

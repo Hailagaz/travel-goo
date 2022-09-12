@@ -11,7 +11,9 @@
 
 	min-width: 0;
 
-	&__header {}
+	&__header {
+		margin-bottom: 60px;
+	}
 
 	&__slider {
 		max-width: 100%;

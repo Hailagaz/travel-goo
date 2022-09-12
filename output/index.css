@@ -644,6 +644,9 @@ main {
   flex-wrap: wrap;
   min-width: 0;
 }
+.testimonials__header {
+  margin-bottom: 60px;
+}
 .testimonials__slider {
   max-width: 100%;
 }
