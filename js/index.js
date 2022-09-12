@@ -10,20 +10,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			for (let testimonial of data) {
 				slides += `
-					<div class="swiper-slide">
-						<img class="swiper-location" 
+					<div class="swiper-slide testimonials__slide">
+						<img class="swiper-location testimonials__location" 
 							src="${testimonial.location}" 
 							alt="Location where commentator made photo">
 
-						<div class="swiper-info">
-							<img class="swiper-photo" 
+						<div class="swiper-info testimonials__info">
+							<img class="swiper-photo testimonials__photo" 
 								src="${testimonial.photo}" 
 								alt="Photo of commentator">
 
-							<div class="swiper-testimonial">
+							<div class="swiper-testimonial testimonials__testimonial">
 								<p>${testimonial.testimonial}</p>
 							</div>
-							<div class="swiper-name">
+							<div class="swiper-name testimonials__name">
 								<p>-${testimonial.name}</p>
 							</div>
 						</div>
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			}
 
 			document.querySelector('.swiper').innerHTML = `
-				<div class="swiper-wrapper">
+				<div class="swiper-wrapper testimonials__wrapper">
     				${slides}
   				</div>
 

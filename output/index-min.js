@@ -1,19 +1,19 @@
 window.addEventListener("DOMContentLoaded",()=>{{const e=new IntersectionObserver((t,a)=>{t.forEach(t=>{if(t.isIntersecting){const e=new CountUp(t.target.id,0,t.target.dataset.num,0,t.target.dataset.duration||4,{separator:" ",prefix:t.target.dataset.prefix||"",suffix:t.target.dataset.suffix||""});e.start(()=>{t.target.parentElement.classList.add("statistics__block-count_done")}),a.unobserve(t.target)}})});return void document.querySelectorAll(".statistics__block-count span").forEach(t=>{e.observe(t)})}});
 document.addEventListener("DOMContentLoaded",()=>{window.location.hash&&document.querySelector(window.location.hash).scrollIntoView(),fetch("js/testimonials.json").then(e=>e.json()).then(e=>{let i="";for(var o of e)i+=`
-					<div class="swiper__slide">
-						<img class="swiper__location" 
+					<div class="swiper-slide">
+						<img class="swiper-location" 
 							src="${o.location}" 
 							alt="Location where commentator made photo">
 
-						<div class="swiper__info">
-							<img class="swiper__photo" 
+						<div class="swiper-info">
+							<img class="swiper-photo" 
 								src="${o.photo}" 
 								alt="Photo of commentator">
 
-							<div class="swiper__testimonial">
+							<div class="swiper-testimonial">
 								<p>${o.testimonial}</p>
 							</div>
-							<div class="swiper__name">
+							<div class="swiper-name">
 								<p>-${o.name}</p>
 							</div>
 						</div>
