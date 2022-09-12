@@ -644,3 +644,12 @@ main {
   flex-wrap: wrap;
   min-width: 0;
 }
+.testimonials__slider {
+  max-width: 100%;
+}
+.testimonials__slide {
+  text-align: center;
+}
+.testimonials__location {
+  max-width: 100%;
+}

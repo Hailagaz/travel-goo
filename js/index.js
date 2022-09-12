@@ -44,8 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			const swiper = new Swiper('.swiper', {
 				loop: true,
+
 				slidesPerView: 1.5,
+				watchOverflow: true,
 				spaceBetween: 30,
+				slidesPerGroup: 1,
+				centeredSlides: true,
 
 				pagination: {
 					el: '.swiper-pagination',
