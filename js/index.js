@@ -35,11 +35,11 @@ document.addEventListener("DOMContentLoaded", () => {
 				<div class="swiper-wrapper testimonials__wrapper">
     				${slides}
   				</div>
+				  <!--  -->
+  				<!-- <div class="swiper-pagination"></div> -->
 
-  				<div class="swiper-pagination"></div>
-
-  				<div class="swiper-button-prev"></div>
-  				<div class="swiper-button-next"></div>
+  				<!-- <div class="swiper-button-prev"></div> -->
+  				<!-- <div class="swiper-button-next"></div> -->
 			`;
 
 			const swiper = new Swiper('.swiper', {
@@ -47,9 +47,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 				slidesPerView: 1.5,
 				watchOverflow: true,
-				spaceBetween: 30,
+				spaceBetween: 125,
 				slidesPerGroup: 1,
 				centeredSlides: true,
+
+				effect: 'coverflow',
+				coverflowEffect: {
+					rotate: 0,
+					slideShadows: true,
+					scale: 0.83,
+				},
 
 				pagination: {
 					el: '.swiper-pagination',

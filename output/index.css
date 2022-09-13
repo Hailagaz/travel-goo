@@ -652,7 +652,29 @@ main {
 }
 .testimonials__slide {
   text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .testimonials__location {
   max-width: 100%;
+  width: 1228px;
+  max-height: 100%;
+  height: 536px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.testimonials__info {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 738px;
+  max-width: 100%;
+  position: absolute;
 }

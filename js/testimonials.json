@@ -6,13 +6,13 @@
 		"location": "images/testimonials_background_1.png"
 	},
 	{
-		"name": "Jeo Stanlee",
+		"name": "Lee Stan",
 		"testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor",
 		"photo": "images/testimonials_commentator_1.png",
-		"location": "images/testimonials_background_3.png"
+		"location": "images/testimonials_background_2.png"
 	},
 	{
-		"name": "Jeo Stanlee",
+		"name": "John Shepard",
 		"testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor",
 		"photo": "images/testimonials_commentator_1.png",
 		"location": "images/testimonials_background_3.png"
