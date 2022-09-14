@@ -57,6 +57,18 @@ document.addEventListener("DOMContentLoaded", () => {
 					slideShadows: true,
 					scale: 0.83,
 				},
+				slideToClickedSlide: true,
+
+				keyboard: {
+					enabled: true,
+					onlyInViewport: true,
+					pageUpDown: true,
+				},
+
+				mousewheel: {
+					sensitivity: 1,
+					//eventTarget: ".testimonials__slider",
+				},
 
 				pagination: {
 					el: '.swiper-pagination',
