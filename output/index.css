@@ -649,13 +649,14 @@ main {
 }
 .testimonials__slider {
   max-width: 100%;
+  height: 700px;
 }
 .testimonials__slide {
   text-align: center;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -677,4 +678,27 @@ main {
   width: 738px;
   max-width: 100%;
   position: absolute;
+  bottom: 60px;
+}
+.testimonials__photo {
+  position: absolute;
+  top: -80px;
+}
+.testimonials__testimonial {
+  width: 541px;
+  max-width: 100%;
+  margin-top: 81px;
+}
+.testimonials__testimonial p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.testimonials__name {
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+.testimonials__name p {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
 }

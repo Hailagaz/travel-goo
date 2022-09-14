@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				effect: 'coverflow',
 				coverflowEffect: {
 					rotate: 0,
-					slideShadows: true,
+					slideShadows: false,
 					scale: 0.83,
 				},
 				slideToClickedSlide: true,
