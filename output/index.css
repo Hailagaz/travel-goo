@@ -177,6 +177,21 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+.footer ul {
+  list-style-type: none;
+}
+.footer ul li:first-child {
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 21px;
+  color: #000000;
+}
+.footer ul li {
+  margin-bottom: 17px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5e6282;
+}
 .footer__content {
   max-width: 100%;
   width: 1448px;
@@ -190,7 +205,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   flex-grow: 1;
+}
+.footer__slogan {
+  width: 215px;
+  max-width: 100%;
 }
 .footer__company {
   display: flex;
@@ -229,6 +249,12 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+}
+.footer__rights p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5e6282;
 }
 .header {
   max-width: 100%;
