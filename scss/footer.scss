@@ -13,6 +13,9 @@
 
 	// .footer__content
 	&__content {
+		max-width: 100%;
+		width: 1448px;
+
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -21,7 +24,12 @@
 	}
 	// .footer__logotype
 	&__logotype {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-grow: 1;
 	}
+	
 	// .footer__logo
 	&__logo {
 	}
@@ -30,18 +38,38 @@
 	}
 	// .footer__company
 	&__company {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-grow: 1;
+
 	}
 	// .footer__company-list
 	&__company-list {
 	}
 	// .footer__contact
 	&__contact {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-grow: 1;
+
 	}
 	// .footer__more
 	&__more {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-grow: 1;
+
 	}
 	// .footer__web
 	&__web {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-grow: 1;
+
 	}
 	// .footer__social
 	&__social {
