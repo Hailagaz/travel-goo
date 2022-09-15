@@ -1,9 +1,23 @@
 .footer {
 	max-width: 100%;
-	width: 1448px;
-	
+	//width: 1448px;
+
+	margin: 0 auto;
+	background-color: #ffffff;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+
 	// .footer__content
 	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 	// .footer__logotype
 	&__logotype {
@@ -31,6 +45,11 @@
 	}
 	// .footer__social
 	&__social {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 	// .footer__facebook
 	&__facebook {
@@ -43,6 +62,11 @@
 	}
 	// .footer__app
 	&__app {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: wrap;
 	}
 	// .footer__android
 	&__android {
