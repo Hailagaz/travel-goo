@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded",()=>{function e(t,n,a,d){let m=null;const o=e=>{m=m||e;e=Math.min((e-m)/d,1);t.innerHTML=Math.floor(e*(a-n)+n),e<1&&window.requestAnimationFrame(o)};window.requestAnimationFrame(o)}var t=document.getElementById("valueYears"),n=document.getElementById("valueTravellers"),a=document.getElementById("valuePlaces"),d=document.getElementById("valueHistory");e(t,0,dataset.num,500),e(n,0,dataset.num,5e3),e(a,0,dataset.num,2e3),e(d,0,dataset.num,1e3)});
+let valueDisplays=document.querySelectorAll(".statNum"),interval=500;valueDisplays.forEach(t=>{let e=0,a=parseInt(t.getAttribute("data-val"));var l=Math.floor(interval/a);let r=setInterval(function(){e+=1,(t.textContent=e)==a&&clearInterval(r)},l)});
 document.addEventListener("DOMContentLoaded",()=>{window.location.hash&&document.querySelector(window.location.hash).scrollIntoView(),fetch("js/testimonials.json").then(e=>e.json()).then(e=>{let i="";for(var o of e)i+=`
 					<div class="swiper-slide testimonials__slide">
 						<img class="swiper-location testimonials__location" 
