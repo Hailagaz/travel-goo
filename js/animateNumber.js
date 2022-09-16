@@ -63,7 +63,7 @@
 
 
 let valueDisplays = document.querySelectorAll(".statNum");
-let interval = 500;
+let interval = 5000;
 
 valueDisplays.forEach((valueDisplay) => {
 	let startValue = 0;
