@@ -36,7 +36,7 @@
 		width: 1448px;
 
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: center;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -55,6 +55,8 @@
 	}
 	// .footer__slogan
 	&__slogan {
+		margin-top: 15px;
+
 		width: 215px;
 		max-width: 100%;
 	}
@@ -102,6 +104,9 @@
 	// .footer__facebook
 	&__facebook {
 	}
+	&__facebook > a {
+		height: 1px;
+	}
 	// .footer__instagram
 	&__instagram {
 	}
@@ -143,6 +148,8 @@
 	}
 	// .footer__rights
 	&__rights {
+		margin-top: 118px;
+		margin-bottom: 64px;
 	}
 	&__rights p {
 		font-weight: 400;

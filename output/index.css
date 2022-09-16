@@ -199,7 +199,7 @@
   max-width: 100%;
   width: 1448px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -212,6 +212,7 @@
   flex-grow: 1;
 }
 .footer__slogan {
+  margin-top: 15px;
   width: 215px;
   max-width: 100%;
 }
@@ -248,6 +249,9 @@
   flex-wrap: wrap;
   gap: 35px;
 }
+.footer__facebook > a {
+  height: 1px;
+}
 .footer__apps {
   margin-top: 20px;
   display: flex;
@@ -271,6 +275,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
+}
+.footer__rights {
+  margin-top: 118px;
+  margin-bottom: 64px;
 }
 .footer__rights p {
   font-weight: 400;
