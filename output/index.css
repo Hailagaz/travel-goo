@@ -34,13 +34,14 @@
 }
 .booking__step {
   margin-top: 67px;
+  gap: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .booking__process {
-  margin-left: 30px;
   width: 330px;
   max-width: 100%;
 }
@@ -73,6 +74,14 @@
   display: block;
   bottom: 51px;
   left: 225px;
+}
+@media screen and (max-width: 767px) {
+  .booking__example {
+    margin-top: 50px;
+  }
+  .booking__process {
+    text-align: center;
+  }
 }
 .destinations {
   margin-top: 72px;
