@@ -70,6 +70,17 @@ document.addEventListener("DOMContentLoaded", () => {
 					//eventTarget: ".testimonials__slider",
 				},
 
+				breakpoints: {
+					320: {
+						slidesPerView: 1,
+						spaceBetween: 25,
+					},
+					1024: {
+						slidesPerView: 1.5,
+						spaceBetween: 125,
+					}
+				},
+
 				pagination: {
 					el: '.swiper-pagination',
 					clickable: true,
