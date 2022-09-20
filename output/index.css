@@ -525,9 +525,13 @@ main {
   gap: 74px;
 }
 .packages__deal {
+  max-width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
   width: 434px;
   max-width: 100%;
   background-color: #ffffff;
@@ -535,6 +539,8 @@ main {
 }
 .packages__image {
   height: 338px;
+  max-height: 100%;
+  max-width: 100%;
 }
 .packages__image img {
   height: 100%;
@@ -546,6 +552,11 @@ main {
   width: 434px;
   max-width: 100%;
   padding: 10px 15px 17px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .packages__terms {
   display: flex;

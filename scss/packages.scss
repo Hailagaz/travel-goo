@@ -88,9 +88,14 @@
 	}
 	// .packages__deal
 	&__deal {
+		max-width: 100%;
+		width: auto;
+
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		align-items: stretch;
+		justify-content: center;
 
 		width: 434px;
 		max-width: 100%;
@@ -101,6 +106,8 @@
 	// .packages__image
 	&__image {
 		height: 338px;
+		max-height: 100%;
+		max-width: 100%;
 	}
 	&__image img {
 		height: 100%;
@@ -113,6 +120,12 @@
 		width: 434px;
 		max-width: 100%;
 		padding: 10px 15px 17px;
+
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
 	}
 	// .packages__terms
 	&__terms {
