@@ -24,6 +24,7 @@
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .booking__steps {
   display: flex;
