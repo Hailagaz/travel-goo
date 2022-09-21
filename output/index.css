@@ -105,7 +105,7 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url(/images/destinations_map.png);
+  background-image: url(images/destinations_map.png);
   background-repeat: no-repeat;
   background-position-x: -617px;
   background-position-y: center;
@@ -439,7 +439,7 @@ body {
   font-style: normal;
   font-weight: 400;
   margin: auto;
-  background: url(../images/background_01.png) center 0/100% no-repeat;
+  background: url(images/background_01.png) center 0/100% no-repeat;
   background-size: auto 1177px;
 }
 
@@ -736,7 +736,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/subscribe_back.png);
+  background-image: url(images/subscribe_back.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -787,7 +787,7 @@ main {
   max-width: 421px;
   width: 100%;
   border: 1px solid #d30e0e;
-  background: #ffffff url(/images/subscribe_email.png) 31px 50% no-repeat;
+  background: #ffffff url(images/subscribe_email.png) 31px 50% no-repeat;
   border-radius: 18px;
   color: #39425d;
   padding: 0 66px;
