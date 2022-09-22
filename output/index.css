@@ -525,14 +525,11 @@ main {
   gap: 74px;
 }
 .packages__deal {
-  max-width: 100%;
-  width: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: center;
-  width: 434px;
   max-width: 100%;
   background-color: #ffffff;
   border-radius: 15px 15px;
@@ -549,13 +546,11 @@ main {
   object-position: 0 0;
 }
 .packages__info {
-  width: 434px;
-  max-width: 100%;
   padding: 10px 15px 17px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
 }
 .packages__terms {

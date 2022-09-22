@@ -88,8 +88,8 @@
 	}
 	// .packages__deal
 	&__deal {
-		max-width: 100%;
-		width: auto;
+		//max-width: 100%;
+		//width: auto;
 
 		display: flex;
 		flex-direction: column;
@@ -97,7 +97,7 @@
 		align-items: stretch;
 		justify-content: center;
 
-		width: 434px;
+		//width: 434px;
 		max-width: 100%;
 
 		background-color: #ffffff;
@@ -117,14 +117,15 @@
 	}
 	// .packages__info
 	&__info {
-		width: 434px;
-		max-width: 100%;
+		//width: 434px;
+		//width: 100%;
+		//max-width: 100%;
 		padding: 10px 15px 17px;
 
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		align-items: center;
+		align-items: stretch;
 		justify-content: center;
 	}
 	// .packages__terms
