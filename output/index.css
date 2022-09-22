@@ -154,6 +154,31 @@
 .destinations__spots {
   width: 93px;
 }
+@media screen and (max-width: 767px) {
+  .destinations__content {
+    background-image: none;
+  }
+  .destinations__place {
+    flex-direction: column;
+  }
+  .destinations__image {
+    margin-top: 20px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 300px;
+  }
+  .destinations__image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+    border-radius: 20px;
+  }
+  .destinations__description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 .discover {
   margin-top: 375px;
   padding: 0 20px;

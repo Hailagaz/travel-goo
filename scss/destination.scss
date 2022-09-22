@@ -8,8 +8,6 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 
-
-
 	// .destinations__header
 	&__header {
 		text-align: center;
@@ -94,5 +92,32 @@
 	}
 	// .destinations__more
 	&__more {
+	}
+
+	// Stop fixing on this point
+	@media screen and (max-width: 767px) {
+		&__content {
+			background-image: none;
+		}
+		&__place {
+			flex-direction: column;
+		}
+		&__image {
+			margin-top: 20px;
+			max-height: 100%;
+			max-width: 100%;
+			width: 300px;
+		}
+		&__image img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			object-position: 0 0;
+			border-radius: 20px;
+		}
+		&__description {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
 	}
 }
