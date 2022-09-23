@@ -103,7 +103,12 @@
 		&__example {
 			margin-top: 50px;
 		}
-		
+		&__example:hover img:nth-child(2n) {
+			display: block;
+			bottom: 0;
+			left: 100px;
+	
+		}
 		&__process {
 			text-align: center;
 		}

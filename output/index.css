@@ -80,6 +80,11 @@
   .booking__example {
     margin-top: 50px;
   }
+  .booking__example:hover img:nth-child(2n) {
+    display: block;
+    bottom: 0;
+    left: 100px;
+  }
   .booking__process {
     text-align: center;
   }
