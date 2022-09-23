@@ -373,18 +373,25 @@
   margin: 0;
   padding: 0;
   color: #ffffff;
+  gap: 70px;
 }
 .header__link {
-  margin: 70px;
   overflow: hidden;
 }
 .header__authorize {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 34px;
 }
-.header__favorite {
-  margin-right: 34px;
+@media screen and (max-width: 767px) {
+  .header__list {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header__authorize {
+    flex-direction: column;
+  }
 }
 .button {
   width: 214px;
@@ -481,6 +488,7 @@ body {
   margin: auto;
   background: url(/images/background_01.png) center 0/100% no-repeat;
   background-size: auto 1177px;
+  overflow-x: hidden;
 }
 
 main {

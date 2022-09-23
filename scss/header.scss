@@ -26,19 +26,30 @@
 		margin: 0;
 		padding: 0;
 		color: #ffffff;
+		gap: 70px;
 	}
 	&__link {
-		margin: 70px;
+		//margin: 70px;
 		overflow: hidden;
 	}
 	&__authorize {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		gap: 34px;
 	}
 	&__favorite {
-		margin-right: 34px;
+		//margin-right: 34px;
 	}
 	&__user {
+	}
+	@media screen and (max-width: 767px) {
+		&__list {
+			flex-direction: column;
+			gap: 20px;
+		}
+		&__authorize {
+			flex-direction: column;
+		}
 	}
 }
