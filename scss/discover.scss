@@ -25,6 +25,9 @@
 	&__button {
 		margin-top: 39px;
 	}
+	@media screen and (max-width: 767px) {
+		margin-top: 175px;
+	}
 }
 
 
