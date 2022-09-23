@@ -689,6 +689,14 @@ main {
 .services__service-descr {
   margin-top: 19px;
 }
+@media screen and (max-width: 767px) {
+  .services__service {
+    padding: 40px 10px 40px;
+    width: auto;
+    align-items: center;
+    text-align: center;
+  }
+}
 .statistics {
   background: url(/images/statistics_back.png) rgba(0, 88, 83, 0.05) center 0/100% no-repeat;
   background-size: auto 733px;

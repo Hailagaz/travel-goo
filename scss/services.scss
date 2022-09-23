@@ -64,4 +64,13 @@
 	&__service-descr {
 		margin-top: 19px;
 	}
+
+	@media screen and (max-width: 767px) {
+		&__service {
+			padding: 40px 10px 40px;
+			width: auto;
+			align-items: center;
+			text-align: center;
+		}
+	}
 }
