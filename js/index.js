@@ -3,32 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		document.querySelector(window.location.hash).scrollIntoView();
 	}
 
-	
-	//Scroll to
-	const menuLinks = document.querySelectorAll('.header__link[data-goto]');
-	if (menuLinks.length > 0) {
-		menuLinks.forEach(menuLink => {
-			menuLink.addEventListener("click", onMenuLinkClick);
-		});
-
-		function onMenuLinkClick(e) {
-			const menuLink = e.target;
-			if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
-				const gotoBlock = document.querySelector(menuLink.dataset.goto);
-				const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
-
-				window.scrollTo({
-					top: gotoBlockValue,
-					behavior: "smooth"
-				});
-				e.preventDefault();
-
-			}
-
-			menu.classList.toggle('active');
-			menuBtn.classList.toggle('active');
-		}
-	}
 
 
 	//Get data and build sliders structure
@@ -126,14 +100,45 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-		//Burger menu
-		const iconHeader = document.querySelector('.header__icon');
-		if (iconHeader) {
-			const navHeader = document.querySelector('.header__nav');
-			iconHeader.addEventListener("click", function (event) {
-				document.body.classList.toggle('_lock');
-				iconHeader.classList.toggle('_active');
-				navHeader.classList.toggle('_active');
-			});
+	//Burger menu
+	const iconHeader = document.querySelector('.header__icon');
+	const navHeader = document.querySelector('.header__nav');
+	if (iconHeader) {
+		iconHeader.addEventListener("click", function (event) {
+			document.body.classList.toggle('_lock');
+			iconHeader.classList.toggle('_active');
+			navHeader.classList.toggle('_active');
+		});
+	}
+
+
+
+	//Scroll to
+	const menuLinks = document.querySelectorAll('.header__link[data-goto]');
+	if (menuLinks.length > 0) {
+		menuLinks.forEach(menuLink => {
+			menuLink.addEventListener("click", onMenuLinkClick);
+		});
+
+		function onMenuLinkClick(e) {
+			const menuLink = e.target;
+			if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
+				const gotoBlock = document.querySelector(menuLink.dataset.goto);
+				const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
+
+				if (iconHeader.classList.contains('_active')) {
+					document.body.classList.remove('_lock');
+					iconHeader.classList.remove('_active');
+					navHeader.classList.remove('_active');
+				}
+
+				window.scrollTo({
+					top: gotoBlockValue,
+					behavior: "smooth"
+				});
+				e.preventDefault();
+
+			}
 		}
+	}
 });
