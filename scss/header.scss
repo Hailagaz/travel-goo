@@ -55,6 +55,9 @@
 		display: none;
 	}
 	@media screen and (max-width: 767px) {
+		&__logotype {
+			z-index: 5;
+		}
 		&__favorite p {
 			display: block;
 			font-weight: 600;
@@ -83,6 +86,9 @@
 			flex-direction: column;
 			gap: 20px;
 		}
+		&__list li {
+			border-bottom: solid 1px #00a651;
+		}
 		&__authorize {
 			flex-direction: column;
 		}
@@ -103,7 +109,7 @@
 			height: 10%;
 			width: 100%;
 			transition: all 0.3s ease 0s;
-			background-color: #00a651;
+			background-color: #ffffff;
 		}
 		&__icon::before,
 		&__icon::after {
@@ -138,13 +144,31 @@
 			top: 0;
 			left: 0;
 			height: 90px;
-			background: rgb(18, 66, 41);
-			background: linear-gradient(
-				90deg,
-				rgba(18, 66, 41, 0.5) 0%,
-				rgba(18, 66, 41, 0.75) 50%,
-				rgba(18, 66, 41, 1) 100%
-			);
+			background: linear-gradient(-45deg, #63dd9e, #35aa6e, #177946, #064b27);
+			//background-size: 400% 400%;
+			//height: 100vh;
+			animation: gradien 5s ease infinite;
+			opacity: 0.8;
+			// background: rgb(18, 66, 41);
+			// background: linear-gradient(
+			// 	90deg,
+			// 	rgba(18, 66, 41, 0.5) 0%,
+			// 	rgba(18, 66, 41, 0.75) 50%,
+			// 	rgba(18, 66, 41, 1) 100%
+			// );
 		}
 	}
+}
+
+
+@keyframes gradien {
+	0% {
+		background-position: 0% 50%;
+	};
+	50% {
+		background-position: 100% 50%;
+	};
+	100% {
+		background-position: 0% 50%;
+	};
 }
