@@ -14,7 +14,8 @@
 	&__logotype {
 	}
 
-	&__menu {}
+	&__menu {
+	}
 
 	&__icon {
 		display: none;
@@ -34,9 +35,6 @@
 		padding: 0;
 		color: #ffffff;
 		gap: 70px;
-	}
-	&__list:nth-child(4) {
-		margin-left: 150px;
 	}
 	&__link {
 		//margin: 70px;
@@ -69,6 +67,12 @@
 			font-size: 20px;
 			line-height: 27px;
 		}
+		&__favorite p:hover {
+			border-bottom: solid 2px #ffffff;
+		}
+		&__user p:hover {
+			border-bottom: solid 2px #ffffff;
+		}
 		&__favorite img {
 			display: none;
 		}
@@ -99,7 +103,7 @@
 			height: 10%;
 			width: 100%;
 			transition: all 0.3s ease 0s;
-			background-color: #00A651;
+			background-color: #00a651;
 		}
 		&__icon::before,
 		&__icon::after {
@@ -108,10 +112,10 @@
 		&__icon::before {
 			top: 0;
 		}
-		
+
 		&__icon::after {
 			bottom: 0;
-		} 
+		}
 		&__icon span {
 			top: 50%;
 			transform: scale(1) translate(0px, -50%);
@@ -125,7 +129,22 @@
 			background-color: rgba($color: #124229, $alpha: 0.75);
 			padding: 100px 30px 30px 30px;
 			transition: left 0.3s ease 0s;
+			overflow: auto;
 		}
-		
+		&__nav::before {
+			content: "";
+			position: fixed;
+			width: 100%;
+			top: 0;
+			left: 0;
+			height: 90px;
+			background: rgb(18, 66, 41);
+			background: linear-gradient(
+				90deg,
+				rgba(18, 66, 41, 0.5) 0%,
+				rgba(18, 66, 41, 0.75) 50%,
+				rgba(18, 66, 41, 1) 100%
+			);
+		}
 	}
 }

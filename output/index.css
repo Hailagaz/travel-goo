@@ -378,9 +378,6 @@
   color: #ffffff;
   gap: 70px;
 }
-.header__list:nth-child(4) {
-  margin-left: 150px;
-}
 .header__link {
   overflow: hidden;
 }
@@ -409,6 +406,12 @@
     font-size: 20px;
     line-height: 27px;
   }
+  .header__favorite p:hover {
+    border-bottom: solid 2px #ffffff;
+  }
+  .header__user p:hover {
+    border-bottom: solid 2px #ffffff;
+  }
   .header__favorite img {
     display: none;
   }
@@ -436,7 +439,7 @@
     height: 10%;
     width: 100%;
     transition: all 0.3s ease 0s;
-    background-color: #00A651;
+    background-color: #00a651;
   }
   .header__icon::before, .header__icon::after {
     content: "";
@@ -460,6 +463,17 @@
     background-color: rgba(18, 66, 41, 0.75);
     padding: 100px 30px 30px 30px;
     transition: left 0.3s ease 0s;
+    overflow: auto;
+  }
+  .header__nav::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 90px;
+    background: rgb(18, 66, 41);
+    background: linear-gradient(90deg, rgba(18, 66, 41, 0.5) 0%, rgba(18, 66, 41, 0.75) 50%, rgb(18, 66, 41) 100%);
   }
 }
 .button {
