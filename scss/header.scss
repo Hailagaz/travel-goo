@@ -35,6 +35,9 @@
 		color: #ffffff;
 		gap: 70px;
 	}
+	&__list:nth-child(4) {
+		margin-left: 150px;
+	}
 	&__link {
 		//margin: 70px;
 		overflow: hidden;
