@@ -463,7 +463,7 @@
   .header__nav {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 100%;
     height: 100%;
     background-color: rgba(18, 66, 41, 0.75);
@@ -471,16 +471,22 @@
     transition: left 0.3s ease 0s;
     overflow: auto;
   }
+  .header__nav._active {
+    left: 0;
+  }
   .header__nav::before {
     content: "";
     position: fixed;
     width: 100%;
     top: 0;
-    left: 0;
+    left: -100%;
     height: 90px;
     background: linear-gradient(-45deg, #63dd9e, #35aa6e, #177946, #064b27);
     animation: gradien 5s ease infinite;
     opacity: 0.8;
+  }
+  .header__nav::before._active {
+    left: 0;
   }
 }
 
@@ -591,6 +597,10 @@ body {
   background: url(/images/background_01.png) center 0/100% no-repeat;
   background-size: auto 1177px;
   overflow-x: hidden;
+}
+
+body._lock {
+  overflow: hidden;
 }
 
 main {

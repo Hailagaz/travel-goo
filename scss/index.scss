@@ -26,6 +26,10 @@ body {
 	overflow-x: hidden;
 }
 
+body._lock {
+	overflow: hidden;
+}
+
 main {
 	max-width: 100%;
 	width: $width_content;

@@ -126,10 +126,21 @@
 			top: 50%;
 			transform: scale(1) translate(0px, -50%);
 		}
+		&__icon._active span {
+			transform: scale(0) translate(0px, -50%);
+		}
+		&__icon._active::before {
+			top: 50%;
+			transform: rotate(-45deg) translate(0px, -50%);
+		}
+		&__icon._active::after {
+			bottom: 50%;
+			transform: rotate(45deg) translate(0px, 50%);
+		}
 		&__nav {
 			position: fixed;
 			top: 0;
-			left: 0;
+			left: -100%;
 			width: 100%;
 			height: 100%;
 			background-color: rgba($color: #124229, $alpha: 0.75);
@@ -137,26 +148,24 @@
 			transition: left 0.3s ease 0s;
 			overflow: auto;
 		}
+		&__nav._active {
+			left: 0;
+		}
 		&__nav::before {
 			content: "";
 			position: fixed;
 			width: 100%;
 			top: 0;
-			left: 0;
+			left: -100%;
 			height: 90px;
 			background: linear-gradient(-45deg, #63dd9e, #35aa6e, #177946, #064b27);
-			//background-size: 400% 400%;
-			//height: 100vh;
 			animation: gradien 5s ease infinite;
 			opacity: 0.8;
-			// background: rgb(18, 66, 41);
-			// background: linear-gradient(
-			// 	90deg,
-			// 	rgba(18, 66, 41, 0.5) 0%,
-			// 	rgba(18, 66, 41, 0.75) 50%,
-			// 	rgba(18, 66, 41, 1) 100%
-			// );
 		}
+		&__nav::before._active {
+			left: 0;
+		}
+		
 	}
 }
 

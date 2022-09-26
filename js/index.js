@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	
-
+	//Scroll to
 	const menuLinks = document.querySelectorAll('.header__link[data-goto]');
 	if (menuLinks.length > 0) {
 		menuLinks.forEach(menuLink => {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 
-
+	//Get data and build sliders structure
 	fetch("js/testimonials.json")
 		.then((response) => response.json())
 		.then((data) => {
@@ -123,4 +123,17 @@ document.addEventListener("DOMContentLoaded", () => {
 		.catch((error) => {
 			document.querySelector('.swiper').innerHTML = '<p>Sorry, we have some problems. We will fix them soon.</p>';
 		});
+
+
+
+		//Burger menu
+		const iconHeader = document.querySelector('.header__icon');
+		if (iconHeader) {
+			const navHeader = document.querySelector('.header__nav');
+			iconHeader.addEventListener("click", function (event) {
+				document.body.classList.toggle('_lock');
+				iconHeader.classList.toggle('_active');
+				navHeader.classList.toggle('_active');
+			});
+		}
 });
