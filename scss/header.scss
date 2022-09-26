@@ -46,11 +46,32 @@
 		gap: 34px;
 	}
 
-	&__favorite {}
+	&__favorite p {
+		display: none;
+	}
 
-	&__user {
+	&__user p {
+		display: none;
 	}
 	@media screen and (max-width: 767px) {
+		&__favorite p {
+			display: block;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 27px;
+		}
+		&__user p {
+			display: block;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 27px;
+		}
+		&__favorite img {
+			display: none;
+		}
+		&__user img {
+			display: none;
+		}
 		&__list {
 			flex-direction: column;
 			gap: 20px;
@@ -92,5 +113,16 @@
 			top: 50%;
 			transform: scale(1) translate(0px, -50%);
 		}
+		&__nav {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba($color: #124229, $alpha: 0.75);
+			padding: 100px 30px 30px 30px;
+			transition: left 0.3s ease 0s;
+		}
+		
 	}
 }
