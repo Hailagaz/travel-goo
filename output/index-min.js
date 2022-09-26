@@ -1,26 +1,26 @@
 let valueDisplays=document.querySelectorAll(".statNum"),interval=5e3;valueDisplays.forEach(t=>{let e=0,a=parseInt(t.getAttribute("data-val"));var l=Math.floor(interval/a);let r=setInterval(function(){e+=1,(t.textContent=e)==a&&clearInterval(r)},l)});
-document.addEventListener("DOMContentLoaded",()=>{window.location.hash&&document.querySelector(window.location.hash).scrollIntoView(),fetch("js/testimonials.json").then(e=>e.json()).then(e=>{let i="";for(var s of e)i+=`
+document.addEventListener("DOMContentLoaded",()=>{window.location.hash&&document.querySelector(window.location.hash).scrollIntoView();const e=document.querySelectorAll(".header__link[data-goto]");function t(e){var t=e.target;if(t.dataset.goto&&document.querySelector(t.dataset.goto)){const o=document.querySelector(t.dataset.goto);t=o.getBoundingClientRect().top+pageYOffset-document.querySelector("header").offsetHeight;window.scrollTo({top:t,behavior:"smooth"}),e.preventDefault()}menu.classList.toggle("active"),menuBtn.classList.toggle("active")}0<e.length&&e.forEach(e=>{e.addEventListener("click",t)}),fetch("js/testimonials.json").then(e=>e.json()).then(e=>{let t="";for(var o of e)t+=`
 					<div class="swiper-slide testimonials__slide">
 						<img class="swiper-location testimonials__location" 
-							src="${s.location}" 
+							src="${o.location}" 
 							alt="Location where commentator made photo">
 
 						<div class="swiper-info testimonials__info">
 							<img class="swiper-photo testimonials__photo" 
-								src="${s.photo}" 
+								src="${o.photo}" 
 								alt="Photo of commentator">
 
 							<div class="swiper-testimonial testimonials__testimonial">
-								<p>${s.testimonial}</p>
+								<p>${o.testimonial}</p>
 							</div>
 							<div class="swiper-name testimonials__name">
-								<p>-${s.name}</p>
+								<p>-${o.name}</p>
 							</div>
 						</div>
 					</div>
 				`;document.querySelector(".swiper").innerHTML=`
 				<div class="swiper-wrapper testimonials__wrapper">
-    				${i}
+    				${t}
   				</div>
 				  <!--  -->
   				<!-- <div class="swiper-pagination"></div> -->

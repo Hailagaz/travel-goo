@@ -13,6 +13,13 @@
 
 	&__logotype {
 	}
+
+	&__menu {}
+
+	&__icon {
+		display: none;
+	}
+
 	&__nav {
 		font-weight: 600;
 		font-size: 20px;
@@ -38,9 +45,9 @@
 		align-items: center;
 		gap: 34px;
 	}
-	&__favorite {
-		//margin-right: 34px;
-	}
+
+	&__favorite {}
+
 	&__user {
 	}
 	@media screen and (max-width: 767px) {
