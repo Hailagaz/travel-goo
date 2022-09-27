@@ -1,3 +1,5 @@
+@import "_variables.scss";
+
 .testimonials {
 	padding-top: 62px;
 	//padding-bottom: 124px;
@@ -17,6 +19,8 @@
 
 	&__slider {
 		max-width: 100%;
+		//width: $width_content;
+
 		height: 700px;
 	}
 
@@ -33,6 +37,7 @@
 		justify-content: flex-start;
 		flex-direction: column;
 		flex-wrap: wrap;
+		padding: 0 20px;
 	}
 
 	&__location {
@@ -52,8 +57,8 @@
 		flex-direction: column;
 		flex-wrap: wrap;
 
-		width: 738px;
-		max-width: 100%;
+		max-width: 738px;
+		width: 90%;
 
 		position: absolute;
 		bottom: 60px;
@@ -86,6 +91,12 @@
 	@media screen and (max-width: 767px) {
 		&__header {
 			text-align: center;
+		}
+	}
+
+	@media screen and (min-width: 1920px) {
+		&__slider {
+			width: max-content;
 		}
 	}
 }

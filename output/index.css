@@ -97,6 +97,9 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  max-width: 100%;
+  width: 1735px;
+  margin: 0 auto;
 }
 .destinations__header {
   text-align: center;
@@ -615,8 +618,6 @@ body._lock {
 }
 
 main {
-  max-width: 100%;
-  width: 1735px;
   margin: 0px auto 0px auto;
   padding: 0;
 }
@@ -992,6 +993,7 @@ main {
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
+  padding: 0 20px;
 }
 .testimonials__location {
   max-width: 100%;
@@ -1008,8 +1010,8 @@ main {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 738px;
-  max-width: 100%;
+  max-width: 738px;
+  width: 90%;
   position: absolute;
   bottom: 60px;
 }
@@ -1038,5 +1040,10 @@ main {
 @media screen and (max-width: 767px) {
   .testimonials__header {
     text-align: center;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .testimonials__slider {
+    width: max-content;
   }
 }

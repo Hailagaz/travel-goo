@@ -1,3 +1,5 @@
+@import "_variables.scss";
+
 .destinations {
 	margin-top: 72px;
 	padding: 0 20px;
@@ -7,6 +9,10 @@
 	justify-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
+
+	max-width: 100%;
+	width: $width_content;
+	margin: 0 auto;
 
 	// .destinations__header
 	&__header {
