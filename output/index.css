@@ -771,7 +771,7 @@ input[type=radio] {
 }
 
 .showbutton {
-  opacity: 0.7;
+  opacity: 1;
   transition: 0.5s;
 }
 .showbutton__hidden {
