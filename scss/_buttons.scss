@@ -30,3 +30,21 @@
 .button a:hover {
 	border-bottom: none;
 }
+
+
+
+.scrolltop {
+	position: fixed;
+	bottom: 50px;
+	right: 25px;
+	z-index: 5;
+	cursor: pointer;
+}
+.showbutton {
+	opacity: 1;
+	transition: 0.5s;
+
+	&__hidden {
+		opacity: 0;
+	}
+}
