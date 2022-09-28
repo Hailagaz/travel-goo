@@ -1,19 +1,24 @@
-// .wrapper-form {
-// }
+.wrapper-form {
+	background: url(../images/authorize_directions.jpg) center no-repeat;
+	background-size: cover;
+}
 
 .authorize {
 	display: flex;
 	justify-content: center;
+
 	align-items: center;
 	border: 1px solid #bdbdbd;
 	border-radius: 0.25rem;
-	margin: 50px auto 50px auto;
+	margin: 0 auto 50px auto;
 	max-width: 350px;
 
 	// .form__logotype
 
 	&__logotype {
+		display: flex;
 		justify-content: center;
+		align-items: center;
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
@@ -35,6 +40,7 @@
 		max-width: 300px;
 		border-radius: 0.25rem;
 		border: 1px solid #bdbdbd;
+		padding: 0 20px;
 	}
 
 	// .form__textfield
@@ -44,6 +50,7 @@
 		flex-flow: column;
 		margin-top: 15px;
 		margin-bottom: 15px;
+		
 	}
 
 	// .form__textfield-label
@@ -122,7 +129,9 @@
 
 	// .form__specialist
 
-	// &__specialist {}
+	&__specialist {
+		margin-bottom: 20px;
+	}
 
 	// .form__select
 
