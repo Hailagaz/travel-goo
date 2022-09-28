@@ -23,20 +23,18 @@
 		<div class="authorize">
 			<form action="" method="post" enctype="multipart/form-data">
 				<div class="general-logotype authorize__logotype">
-					<div class="general-logo authorize__logo">T</div>
-					<div class="general-name authorize__name">Trafalgar</div>
+					<div class="header__logotype">
+						<a href="index.html" class="header__link">
+							<img src="images/logotype_01.png" alt="Header logotype">
+						</a>
+					</div>
 				</div>
 				<fieldset class="authorize__fieldset">
 					<legend>Personal information</legend>
 					<div class="authorize__textfield">
-						<label for="namefirst" class="authorize__textfield-label">First name:</label>
-						<input type="text" name="firstname" placeholder="Enter your first name"
+						<label for="namefirst" class="authorize__textfield-label">Full name:</label>
+						<input type="text" name="firstname" placeholder="Enter your full name"
 							class="authorize__textfield-input" id="namefirst">
-					</div>
-					<div class="authorize__textfield">
-						<label for="namelast" class="authorize__textfield-label">Last name:</label>
-						<input type="text" name="lastname" placeholder="Enter your last name"
-							class="authorize__textfield-input" id="namelast">
 					</div>
 					<div class="authorize__textfield">
 						<label for="mail" class="authorize__textfield-label">Email:</label>
@@ -74,43 +72,25 @@
 					</div>
 				</fieldset>
 				<fieldset class="authorize__fieldset">
-					<legend>Specialist</legend>
+					<legend>Directions</legend>
 					<div class="authorize__specialist">
-						<label for="doctorSelector">Select type of specialist:</label>
+						<label for="doctorSelector">Select trip directions:</label>
 						<select name="doctors" multiple class="authorize__select" id="doctorSelector">
-							<option value="physician_family">Family practice physician</option>
-							<option value="physician_internal">Internal medicine physician</option>
-							<option value="pediatrician">Pediatrician</option>
-							<option value="allergist">Allergist</option>
-							<option value="dermatologist">Dermatologist</option>
-							<option value="infectious">Infectious disease doctor</option>
-							<option value="ophthalmologist">Ophthalmologist</option>
-							<option value="gynecologist">Obstetrician/gynecologist</option>
-							<option value="cardiologist">Cardiologist</option>
-							<option value="endocrinologist">Endocrinologist</option>
-							<option value="gastroenterologist">Gastroenterologist</option>
-							<option value="nephrologist">Nephrologist</option>
-							<option value="urologist">Urologist</option>
-							<option value="pulmonologist">Pulmonologist</option>
-							<option value="otolaryngologist">Otolaryngologist</option>
-							<option value="neurologist">Neurologist</option>
-							<option value="psychiatrist">Psychiatrist</option>
-							<option value="oncologist">Oncologist</option>
-							<option value="radiologist">Radiologist</option>
-							<option value="rheumatologist">Rheumatologist</option>
-							<option value="surgeon_general">General surgeon</option>
-							<option value="surgeon_orthopedic">Orthopedic surgeon</option>
-							<option value="surgeon_cardiac">Cardiac surgeon</option>
-							<option value="anesthesiologist">Anesthesiologist</option>
+							<option value="physician_family">North America</option>
+							<option value="physician_internal">South America</option>
+							<option value="pediatrician">Europe</option>
+							<option value="infectious">Africa</option>
+							<option value="ophthalmologist">Middle East</option>
+							<option value="gynecologist">Asia & The Pacific</option>
 						</select>
 					</div>
 				</fieldset>
 				<fieldset class="authorize__fieldset">
 					<legend>Details</legend>
 					<div class="authorize__textarea">
-						<label for="complaints">Write details about your deseases:</label>
+						<label for="complaints">Write details about your trip preferences:</label>
 						<textarea name="complaints" id="complaints" cols="15" rows="5"
-							placeholder="Enter your health complaints, symptoms and other details"
+							placeholder="Enter your preferences and other details"
 							class="authorize__complaints"></textarea>
 					</div>
 					<div class="authorize__file-load authorize__button">
