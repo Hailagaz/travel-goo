@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Authorize form</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+	<link type="image/x-icon" href="images/travel_goo_icon.ico" rel="shortcut icon">
+	<link type="Image/x-icon" href="images/travel_goo_icon.ico" rel="icon">
+
+	<link rel="stylesheet" href="output/index.css">
+</head>
+
+<body>
+	<div class="wrapper-form">
+		<div class="authorize">
+			<form action="" method="post" enctype="multipart/form-data">
+				<div class="general-logotype authorize__logotype">
+					<div class="general-logo authorize__logo">T</div>
+					<div class="general-name authorize__name">Trafalgar</div>
+				</div>
+				<fieldset class="authorize__fieldset">
+					<legend>Personal information</legend>
+					<div class="authorize__textfield">
+						<label for="namefirst" class="authorize__textfield-label">First name:</label>
+						<input type="text" name="firstname" placeholder="Enter your first name"
+							class="authorize__textfield-input" id="namefirst">
+					</div>
+					<div class="authorize__textfield">
+						<label for="namelast" class="authorize__textfield-label">Last name:</label>
+						<input type="text" name="lastname" placeholder="Enter your last name"
+							class="authorize__textfield-input" id="namelast">
+					</div>
+					<div class="authorize__textfield">
+						<label for="mail" class="authorize__textfield-label">Email:</label>
+						<input type="email" name="email" placeholder="Enter your email" class="authorize__textfield-input"
+							id="mail">
+					</div>
+					<div class="authorize__textfield">
+						<label for="phonenumber" class="authorize__textfield-label">Phone number:</label>
+						<input type="tel" name="phone" placeholder="Enter your phone number"
+							class="authorize__textfield-input" id="phonenumber">
+					</div>
+					<div class="authorize__textfield">
+						<label for="address1" class="authorize__textfield-label">Address:</label>
+						<input type="text" name="address" placeholder="Enter your address" class="authorize__textfield-input"
+							id="address1">
+					</div>
+				</fieldset>
+				<fieldset class="authorize__fieldset">
+					<legend>Gender</legend>
+					<div class="authorize__radio">
+						<label for="genderfield">Select your gender:</label>
+						<div class="authorize__genderradio" id="genderfield">
+							<input type="radio" name="gender" value="male" id="radio1">
+							<label for="radio1">Male</label>
+							<input type="radio" name="gender" value="female" id="radio2">
+							<label for="radio2">Female</label>
+							<input type="radio" name="gender" value="other" id="radio3">
+							<label for="radio3">Other</label>
+						</div>
+					</div>
+					<div class="authorize__textfield">
+						<label for="age1" class="authorize__textfield-label">Age:</label>
+						<input type="number" name="age" min="0" max="150" placeholder="Enter your age"
+							class="authorize__textfield-input" id="age1">
+					</div>
+				</fieldset>
+				<fieldset class="authorize__fieldset">
+					<legend>Specialist</legend>
+					<div class="authorize__specialist">
+						<label for="doctorSelector">Select type of specialist:</label>
+						<select name="doctors" multiple class="authorize__select" id="doctorSelector">
+							<option value="physician_family">Family practice physician</option>
+							<option value="physician_internal">Internal medicine physician</option>
+							<option value="pediatrician">Pediatrician</option>
+							<option value="allergist">Allergist</option>
+							<option value="dermatologist">Dermatologist</option>
+							<option value="infectious">Infectious disease doctor</option>
+							<option value="ophthalmologist">Ophthalmologist</option>
+							<option value="gynecologist">Obstetrician/gynecologist</option>
+							<option value="cardiologist">Cardiologist</option>
+							<option value="endocrinologist">Endocrinologist</option>
+							<option value="gastroenterologist">Gastroenterologist</option>
+							<option value="nephrologist">Nephrologist</option>
+							<option value="urologist">Urologist</option>
+							<option value="pulmonologist">Pulmonologist</option>
+							<option value="otolaryngologist">Otolaryngologist</option>
+							<option value="neurologist">Neurologist</option>
+							<option value="psychiatrist">Psychiatrist</option>
+							<option value="oncologist">Oncologist</option>
+							<option value="radiologist">Radiologist</option>
+							<option value="rheumatologist">Rheumatologist</option>
+							<option value="surgeon_general">General surgeon</option>
+							<option value="surgeon_orthopedic">Orthopedic surgeon</option>
+							<option value="surgeon_cardiac">Cardiac surgeon</option>
+							<option value="anesthesiologist">Anesthesiologist</option>
+						</select>
+					</div>
+				</fieldset>
+				<fieldset class="authorize__fieldset">
+					<legend>Details</legend>
+					<div class="authorize__textarea">
+						<label for="complaints">Write details about your deseases:</label>
+						<textarea name="complaints" id="complaints" cols="15" rows="5"
+							placeholder="Enter your health complaints, symptoms and other details"
+							class="authorize__complaints"></textarea>
+					</div>
+					<div class="authorize__file-load authorize__button">
+						<input type="file" name="file" id="download-file" class="authorize__file-input" multiple
+							data-multiple-caption="{count} files chosen">
+						<label for="download-file" class="authorize__file-label authorize__button-label"><span>Download additional
+								files</span></label>
+					</div>
+				</fieldset>
+				<fieldset class="authorize__fieldset">
+					<legend>Control</legend>
+					<div class="authorize__buttons">
+						<div class="authorize__button">
+							<a href="index.html" class="authorize__button-label">Back</a>
+						</div>
+						<div class="authorize__button">
+							<label for="button-submit" class="authorize__button-label" style="cursor: pointer">Submit</label>
+							<input type="submit" value="Submit" style="cursor: pointer" class="authorize__load"
+								id="button-submit">
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
