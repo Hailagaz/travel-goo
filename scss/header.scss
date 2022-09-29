@@ -50,10 +50,10 @@
 	&__favorite p {
 		display: none;
 	}
-
 	&__user p {
 		display: none;
 	}
+
 	@media screen and (max-width: 767px) {
 		&__logotype {
 			z-index: 5;
