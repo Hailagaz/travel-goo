@@ -604,32 +604,32 @@ input[type=radio] {
   align-items: center;
   gap: 34px;
 }
-.header__favorite p {
+.header__favorite div {
   display: none;
 }
-.header__user p {
+.header__user div {
   display: none;
 }
 @media screen and (max-width: 767px) {
   .header__logotype {
     z-index: 5;
   }
-  .header__favorite p {
+  .header__favorite div {
     display: block;
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
   }
-  .header__user p {
+  .header__user div {
     display: block;
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
   }
-  .header__favorite p:hover {
+  .header__favorite div:hover {
     border-bottom: solid 2px #ffffff;
   }
-  .header__user p:hover {
+  .header__user div:hover {
     border-bottom: solid 2px #ffffff;
   }
   .header__favorite img {

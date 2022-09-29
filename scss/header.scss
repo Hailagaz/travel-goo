@@ -47,10 +47,10 @@
 		gap: 34px;
 	}
 
-	&__favorite p {
+	&__favorite div {
 		display: none;
 	}
-	&__user p {
+	&__user div {
 		display: none;
 	}
 
@@ -58,22 +58,22 @@
 		&__logotype {
 			z-index: 5;
 		}
-		&__favorite p {
+		&__favorite div {
 			display: block;
 			font-weight: 600;
 			font-size: 20px;
 			line-height: 27px;
 		}
-		&__user p {
+		&__user div {
 			display: block;
 			font-weight: 600;
 			font-size: 20px;
 			line-height: 27px;
 		}
-		&__favorite p:hover {
+		&__favorite div:hover {
 			border-bottom: solid 2px #ffffff;
 		}
-		&__user p:hover {
+		&__user div:hover {
 			border-bottom: solid 2px #ffffff;
 		}
 		&__favorite img {
