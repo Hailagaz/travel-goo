@@ -47,34 +47,28 @@
 		gap: 34px;
 	}
 
-	&__favorite div {
-		display: none;
+	&__favorite {
+		font-size: 0;
 	}
-	&__user div {
-		display: none;
+	&__user {
+		font-size: 0;
 	}
 
 	@media screen and (max-width: 767px) {
 		&__logotype {
 			z-index: 5;
 		}
-		&__favorite div {
-			display: block;
+		&__favorite {
+			//display: block;
 			font-weight: 600;
 			font-size: 20px;
 			line-height: 27px;
 		}
-		&__user div {
+		&__user {
 			display: block;
 			font-weight: 600;
 			font-size: 20px;
 			line-height: 27px;
-		}
-		&__favorite div:hover {
-			border-bottom: solid 2px #ffffff;
-		}
-		&__user div:hover {
-			border-bottom: solid 2px #ffffff;
 		}
 		&__favorite img {
 			display: none;

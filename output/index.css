@@ -604,33 +604,26 @@ input[type=radio] {
   align-items: center;
   gap: 34px;
 }
-.header__favorite div {
-  display: none;
+.header__favorite {
+  font-size: 0;
 }
-.header__user div {
-  display: none;
+.header__user {
+  font-size: 0;
 }
 @media screen and (max-width: 767px) {
   .header__logotype {
     z-index: 5;
   }
-  .header__favorite div {
-    display: block;
+  .header__favorite {
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
   }
-  .header__user div {
+  .header__user {
     display: block;
     font-weight: 600;
     font-size: 20px;
     line-height: 27px;
-  }
-  .header__favorite div:hover {
-    border-bottom: solid 2px #ffffff;
-  }
-  .header__user div:hover {
-    border-bottom: solid 2px #ffffff;
   }
   .header__favorite img {
     display: none;
