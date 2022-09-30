@@ -2,36 +2,24 @@
 
 .testimonials {
 	padding-top: 62px;
-	//padding-bottom: 124px;
-
 	background-color: #ecf1f0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
-
 	min-width: 0;
-
 	&__header {
 		margin-bottom: 60px;
 	}
-
 	&__slider {
 		max-width: 100%;
-		//width: $width_content;
-
 		height: 700px;
 	}
-
-	&__wrapper {
-	}
-
+	//&__wrapper {}
 	&__slide {
 		text-align: center;
-
 		position: relative;
-
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
@@ -39,7 +27,6 @@
 		flex-wrap: wrap;
 		padding: 0 20px;
 	}
-
 	&__location {
 		max-width: 100%;
 		width: 1228px;
@@ -48,7 +35,6 @@
 		border-radius: 20px;
 		object-fit: cover;
 	}
-
 	&__info {
 		background-color: #ffffff;
 		display: flex;
@@ -56,19 +42,15 @@
 		justify-content: center;
 		flex-direction: column;
 		flex-wrap: wrap;
-
 		max-width: 738px;
 		width: 90%;
-
 		position: absolute;
 		bottom: 60px;
 	}
-
 	&__photo {
 		position: absolute;
 		top: -80px;
 	}
-
 	&__testimonial {
 		width: 541px;
 		max-width: 100%;
@@ -78,7 +60,6 @@
 		font-size: 20px;
 		line-height: 30px;
 	}
-
 	&__name {
 		margin-top: 24px;
 		margin-bottom: 18px;

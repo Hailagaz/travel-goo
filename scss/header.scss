@@ -1,26 +1,18 @@
 .header {
 	max-width: 100%;
 	width: 1448px;
-
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: row;
 	flex-wrap: wrap;
-
-	margin: 32px auto 0;
-	padding: 0 20px;
-
-	&__logotype {
-	}
-
-	&__menu {
-	}
-
+	margin: 0 auto;
+	padding: 40px 40px 0;
+	//&__logotype {}
+	//&__menu {}
 	&__icon {
 		display: none;
 	}
-
 	&__nav {
 		font-weight: 600;
 		font-size: 20px;
@@ -34,10 +26,9 @@
 		margin: 0;
 		padding: 0;
 		color: #ffffff;
-		gap: 70px;
+		gap: 50px;
 	}
 	&__link {
-		//margin: 70px;
 		overflow: hidden;
 	}
 	&__authorize {
@@ -46,20 +37,17 @@
 		align-items: center;
 		gap: 34px;
 	}
-
 	&__favorite {
 		font-size: 0;
 	}
 	&__user {
 		font-size: 0;
 	}
-
 	@media screen and (max-width: 767px) {
 		&__logotype {
 			z-index: 5;
 		}
 		&__favorite {
-			//display: block;
 			font-weight: 600;
 			font-size: 20px;
 			line-height: 27px;
@@ -159,10 +147,8 @@
 		&__nav::before._active {
 			left: 0;
 		}
-		
 	}
 }
-
 
 @keyframes gradien {
 	0% {

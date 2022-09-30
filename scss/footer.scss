@@ -1,16 +1,12 @@
 .footer {
 	max-width: 100%;
-	//width: 1448px;
-
 	margin: 0 auto;
 	background-color: #ffffff;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
-
 	ul {
 		list-style-type: none;
 	}
@@ -29,21 +25,16 @@
 	a:hover {
 		text-shadow: 0 0 20px #75f09a;
 	}
-
-	// .footer__content
 	&__content {
 		max-width: 100%;
 		width: 1448px;
-
 		display: flex;
 		align-items: flex-start;
 		justify-content: center;
 		flex-direction: row;
 		flex-wrap: wrap;
-
 		gap: 30px;
 	}
-	// .footer__logotype
 	&__logotype {
 		display: flex;
 		align-items: center;
@@ -51,14 +42,9 @@
 		flex-direction: column;
 		flex-grow: 1;
 	}
-
-	// .footer__logo
-	&__logo {
-	}
-	// .footer__slogan
+	//&__logo {}
 	&__slogan {
 		margin-top: 15px;
-
 		width: 215px;
 		max-width: 100%;
 	}
@@ -69,7 +55,6 @@
 		flex-direction: row;
 		flex-grow: 1;
 	}
-	// .footer__company
 	&__company {
 		display: flex;
 		align-items: center;
@@ -77,10 +62,7 @@
 		flex-grow: 1;
 		padding: 0 10px;
 	}
-	// .footer__company-list
-	&__company-list {
-	}
-	// .footer__contact
+	//&__company-list {}
 	&__contact {
 		display: flex;
 		align-items: center;
@@ -88,7 +70,6 @@
 		flex-grow: 1;
 		padding: 0 10px;
 	}
-	// .footer__more
 	&__more {
 		display: flex;
 		align-items: center;
@@ -96,7 +77,6 @@
 		flex-grow: 1;
 		padding: 0 10px;
 	}
-	// .footer__web
 	&__web {
 		display: flex;
 		align-items: center;
@@ -104,7 +84,6 @@
 		flex-direction: column;
 		flex-grow: 1;
 	}
-	// .footer__social
 	&__social {
 		display: flex;
 		align-items: center;
@@ -113,22 +92,14 @@
 		flex-wrap: wrap;
 		gap: 35px;
 	}
-	// .footer__facebook
-	&__facebook {
-	}
+	//&__facebook {}
 	&__facebook > a {
 		height: 1px;
 	}
-	// .footer__instagram
-	&__instagram {
-	}
-	// .footer__twitter
-	&__twitter {
-	}
-	// .footer__app
+	//&__instagram {}
+	//&__twitter {}
 	&__apps {
 		margin-top: 20px;
-
 		display: flex;
 		align-items: flex-start;
 		justify-content: center;
@@ -144,7 +115,6 @@
 	}
 	&__app {
 		margin-top: 22px;
-
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -152,12 +122,8 @@
 		flex-wrap: wrap;
 		gap: 10px;
 	}
-	// .footer__android
-	&__android {
-	}
-	// .footer__ios
-	&__ios {
-	}
+	//&__android {}
+	//&__ios {}
 	// .footer__rights
 	&__rights {
 		margin-top: 118px;

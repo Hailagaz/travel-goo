@@ -1,35 +1,27 @@
 .statistics {
 	background: url(../images/statistics_back.png) rgba(0, 88, 83, 0.05) center 0/100% no-repeat;
 	background-size: auto 733px;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
-	
 	padding: 0 20px;
-
-	// .statistics__header
 	&__header {
 		padding-top: 81px;
 		width: 518px;
 		max-width: 100%;
 		text-align: center;
 	}
-	// .statistics__slogan
 	&__slogan {
 		margin-top: 19px;
 		width: 495px;
 		max-width: 100%;
 		text-align: center;
 	}
-
-	// .statistics__achievements
 	&__achievements {
 		margin-top: 118px;
 		margin-bottom: 113px;
-
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -37,7 +29,6 @@
 		flex-wrap: wrap;
 		gap: 5rem;
 	}
-	// .statistics__block
 	&__block {
 		width: 250px;
 		height: 250px;
@@ -55,10 +46,7 @@
 		box-shadow: 0 0 15px 5px rgba(0, 88, 83, 0.05);
 		color: #005f15;
 	}
-	// .statistics__block-image
-	&__block-image {
-	}
-	// .statistics__block-count
+	//&__block-image {}
 	&__block-count {
 		margin-top: 25px;
 	}
@@ -68,8 +56,6 @@
 		font-size: 36px;
 		line-height: 49px;
 	}
-
-	// .statistics__block-descr
 	&__block-descr {
 		margin-top: 15px;
 	}
@@ -77,17 +63,8 @@
 		font-size: 20px;
 		line-height: 27px;
 	}
-
-	// .statistics__experience
-	&__experience {
-	}
-	// .statistics__travellers
-	&__travellers {
-	}
-	// .statistics__places
-	&__places {
-	}
-	// .statistics__history
-	&__history {
-	}
+	//&__experience {}
+	//&__travellers {}
+	//&__places {}
+	//&__history {}
 }

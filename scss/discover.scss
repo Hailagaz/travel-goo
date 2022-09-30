@@ -1,7 +1,6 @@
 .discover {
-	margin-top: 375px;
+	margin-top: 25vh;
 	padding: 0 20px;
-	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -9,24 +8,21 @@
 	flex-wrap: wrap;
 	color: #ffffff;
 	text-align: center;
-
-	// .discover__header
 	&__header {
 		width: 779px;
 		max-width: 100%;
 	}
-	// .discover__slogan
 	&__slogan {
 		margin-top: 57px;
 		width: 568px;
 		max-width: 100%;
 	}
-	// .discover__button
 	&__button {
 		margin-top: 39px;
+		margin-bottom: 265px;
 	}
 	@media screen and (max-width: 767px) {
-		margin-top: 175px;
+		margin-top: 10vh;
 	}
 }
 

@@ -212,6 +212,12 @@
 input[type=radio] {
   display: none;
 }
+.background {
+  height: 100vh;
+  width: 100vw;
+  background: url(../images/background_01.png) center no-repeat;
+  background-size: auto;
+}
 .booking {
   margin-top: 62px;
   margin-bottom: 92px;
@@ -304,7 +310,6 @@ input[type=radio] {
   }
 }
 .destinations {
-  margin-top: 72px;
   padding: 0 20px;
   display: flex;
   align-items: center;
@@ -316,6 +321,7 @@ input[type=radio] {
   margin: 0 auto;
 }
 .destinations__header {
+  margin-top: 75px;
   text-align: center;
 }
 .destinations__content {
@@ -402,7 +408,7 @@ input[type=radio] {
   }
 }
 .discover {
-  margin-top: 375px;
+  margin-top: 25vh;
   padding: 0 20px;
   display: flex;
   align-items: center;
@@ -423,10 +429,11 @@ input[type=radio] {
 }
 .discover__button {
   margin-top: 39px;
+  margin-bottom: 265px;
 }
 @media screen and (max-width: 767px) {
   .discover {
-    margin-top: 175px;
+    margin-top: 10vh;
   }
 }
 .footer {
@@ -574,8 +581,8 @@ input[type=radio] {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 32px auto 0;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 40px 40px 0;
 }
 .header__icon {
   display: none;
@@ -593,7 +600,7 @@ input[type=radio] {
   margin: 0;
   padding: 0;
   color: #ffffff;
-  gap: 70px;
+  gap: 50px;
 }
 .header__link {
   overflow: hidden;
@@ -831,8 +838,6 @@ body {
   font-style: normal;
   font-weight: 400;
   margin: auto;
-  background: url(../images/background_01.png) center 0/100% no-repeat;
-  background-size: auto 1177px;
   overflow-x: hidden;
 }
 
@@ -1003,7 +1008,7 @@ main {
   line-height: 33px;
 }
 .services {
-  margin-top: 375px;
+  margin-top: 100px;
   margin-bottom: 88px;
   padding: 0 20px;
   display: flex;
@@ -1170,6 +1175,8 @@ main {
   justify-content: center;
   align-items: center;
   gap: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .subscribe__button-link {
   display: none;

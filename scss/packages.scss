@@ -1,30 +1,22 @@
 .packages {
 	margin-top: 53px;
 	padding: 0 20px;
-
 	background: #ecf1f0;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
-
-	// .packages__header
 	&__header {
 		padding-top: 59px;
 		text-align: center;
 	}
-	// .packages__packs
 	&__packs {
 		margin-top: 52px;
-		//width: 100%;
-		//max-width: 1430px;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 	}
-	// .packages__pack
 	&__pack {
 		list-style-type: none;
 		display: flex;
@@ -37,20 +29,16 @@
 		color: #ffffff;
 		gap: 70px;
 	}
-	// .packages__direction
 	&__direction {
 		overflow: hidden;
 		width: 180px;
 		height: 60px;
-
 		font-weight: 700;
 		font-size: 20px;
 		line-height: 27px;
-
 		background-color: #666666;
 		border-radius: 10px;
 		cursor: pointer;
-
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -75,10 +63,8 @@
 		font-size: 20px;
 		line-height: 27px;
 	}
-	// .packages__deals
 	&__deals {
 		margin-top: 107px;
-
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -86,24 +72,17 @@
 		justify-content: center;
 		gap: 74px;
 	}
-	// .packages__deal
 	&__deal {
-		//max-width: 100%;
-		//width: auto;
-
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: stretch;
 		justify-content: center;
-
 		max-width: 434px;
 		width: 100%;
-
 		background-color: #ffffff;
 		border-radius: 15px 15px;
 	}
-	// .packages__image
 	&__image {
 		height: 338px;
 		max-height: 100%;
@@ -115,20 +94,14 @@
 		object-fit: cover;
 		object-position: 0 0;
 	}
-	// .packages__info
 	&__info {
-		//width: 434px;
-		//width: 100%;
-		//max-width: 100%;
 		padding: 10px 15px 17px;
-
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: stretch;
 		justify-content: center;
 	}
-	// .packages__terms
 	&__terms {
 		display: flex;
 		flex-direction: row;
@@ -140,14 +113,8 @@
 		font-size: 20px;
 		line-height: 27px;
 	}
-
-	// .packages__term
-	&__term {
-	}
-	// .packages__price
-	&__price {
-	}
-	// .packages__advertisment
+	//&__term {}
+	//&__price {}
 	&__advertisment {
 		margin-top: 18px;
 	}
@@ -155,43 +122,32 @@
 		font-weight: 600;
 		line-height: 22px;
 	}
-
-	// .packages__details
 	&__details {
 		margin-top: 33px;
-
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
 	}
-	// .packages__destination
 	&__destination {
 		display: flex;
 		flex-direction: row;
 		align-items: flex-end;
 	}
-	&__destination img {
-		//line-height: 20px;
-	}
+	//&__destination img {}
 	&__destination p {
 		font-weight: 600;
 		font-size: 20px;
 		margin-left: 5px;
-		//line-height: 27px;
 	}
-	// .packages__more
-	&__more {
-	}
+	//&__more {}
 	&__more a {
 		font-weight: 600;
-		//line-height: 27px;
 	}
 	&__more a:hover {
 		border-bottom: solid 2px #000000;
 	}
-	// .packages__button
 	&__button {
 		margin-top: 98px;
 		margin-bottom: 105px;
