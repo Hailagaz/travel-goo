@@ -15,9 +15,9 @@ valueDisplays.forEach((valueDisplay) => {
 	}, duration);
 });
 
-const statistic = document.querySelector('.statistics');
-window.addEventListener("scroll", function (e) {
-	if (window.scrollY == statistic) {
+// const statistic = document.querySelector('.statistics');
+// window.addEventListener("scroll", function (e) {
+// 	if (window.scrollY == statistic) {
 		
-	}
-});
+// 	}
+// });
